@@ -12,6 +12,18 @@ $icon-font-path: "../../bootstrap-sass/assets/fonts/bootstrap/";
 // bower:scss
 // endbower
 
+$main-green: #018B3E;
+
+body {
+  font-size: 1em;
+}
+
+nav {
+  font-size: 2em;
+  margin: 0;
+  border: 1px solid white;
+}
+
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -19,13 +31,8 @@ $icon-font-path: "../../bootstrap-sass/assets/fonts/bootstrap/";
   padding: 0.2em 0;
 }
 
-.thumbnail {
-  height: 200px;
 
-  img.pull-right {
-    width: 50px;
-  }
-}
+
 
 /**
  *  Do not remove the comments below. It's the markers used by gulp-inject to inject

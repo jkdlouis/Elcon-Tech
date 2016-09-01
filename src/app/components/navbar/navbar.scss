@@ -15,3 +15,22 @@ h1 {
 a:hover, a:focus {
   color: greenyellow;
 }
+
+.navbar .navbar-static-top .navbar-inverse {
+  margin: 0;
+}
+
+
+.navbar-inverse {
+  background-color: $main-green;
+  border: none;
+
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > li > a {
+
+  color: white;
+  background-color: $main-green;
+  margin-right: 30px;
+
+}
