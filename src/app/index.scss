@@ -26,6 +26,11 @@ body {
   line-height: 1.25em;
 }
 
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
 a {
   color: black;
 }
@@ -202,10 +207,6 @@ li.up {
     margin-top: -270px;
   }
 }
-
-
-
-
 
 
 

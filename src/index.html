@@ -18,6 +18,7 @@
     <!-- css files will be automatically insert here -->
     <!-- endinject -->
     <!-- endbuild -->
+    <link rel="stylesheet" href="app/product/product.scss">
     <link rel="stylesheet" href="app/components/footer/footer.css">
     <link rel="stylesheet" href="assets/font-awesome-4.6.3/css/font-awesome.min.css">
     <script src="app/components/footer/footer.directive.js"></script>
@@ -27,8 +28,10 @@
     <!--[if lt IE 10]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-
+      <acme-navbar creation-date="main.creationDate"></acme-navbar>
     <div ui-view></div>
+    <elcon-footer></elcon-footer>
+
 
     <!-- build:js(src) scripts/vendor.js -->
     <!-- bower:js -->
