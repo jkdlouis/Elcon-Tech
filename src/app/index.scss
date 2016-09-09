@@ -4,6 +4,7 @@
  */
 $navbar-inverse-link-color: #5AADBB;
 $main-green: #018B3E;
+$main-gray: #363636;
 $icon-font-path: "../../bootstrap-sass/assets/fonts/bootstrap/";
 
 $bg: #fffff0;
@@ -49,21 +50,21 @@ nav {
   padding: 0.2em 0;
 }
 
-.slide {
-  width: 100%;
-  overflow:hidden;
-  position: relative;
-}
-
-.slideShow ul {
-  margin: 0;
-  padding: 0;
-}
-
-.slideShow li {
-  list-style: none;
-  width: 100%;
-}
+//.slide {
+//  width: 100%;
+//  overflow:hidden;
+//  position: relative;
+//}
+//
+//.slideShow ul {
+//  margin: 0;
+//  padding: 0;
+//}
+//
+//.slideShow li {
+//  list-style: none;
+//  width: 100%;
+//}
 
 .slideShow img {
   width: 100%;
@@ -71,7 +72,7 @@ nav {
 
 //about
 .about {
-  padding: 50px;
+  padding: 30px;
 }
 
 .about h4 {
@@ -88,7 +89,6 @@ nav {
   background-color: #F2F2F2;
   padding: 30px;
   height: 65rem;
-  width: 100%;
 }
 
 .history h1 {
@@ -105,7 +105,6 @@ nav {
 .timeline {
   list-style: none;
   width: 100%;
-  //height: 200px;
   margin: 200px 0 0;
   border-top: 6px solid $line;
   display: table;
@@ -147,12 +146,11 @@ nav {
   display: block;
   position: relative;
   margin: 0 auto;
-  text-align: center;
-  border: 1px solid black;
   width: 150px;
-  height: auto;
+  text-align: center;
   padding: 5px;
   background-color: white;
+  border: 2px solid $red;
 }
 
 .content:before {
@@ -180,7 +178,6 @@ li.down {
     margin-top: 12px;
   }
   .avatar {
-    background: $bg;
     margin-top: 116px;
   }
 }
@@ -202,7 +199,6 @@ li.up {
     margin-top: -11px;
   }
   .avatar {
-    background: $bg;
     margin-top: -270px;
   }
 }

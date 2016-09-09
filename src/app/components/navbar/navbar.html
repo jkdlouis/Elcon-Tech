@@ -1,16 +1,16 @@
 <div class="row contact-header">
   <div class="col-xs-12">
     <ul class="list-unstyled list-inline pull-right">
-      <li class="phone"><a href=""><h4><i class="fa fa-envelope" aria-hidden="true"></i>info@elconcap.com</h4></a></li>
-      <li class="email"><a href=""><h4><i class="fa fa-phone" aria-hidden="true"></i>0751-6830668</h4></a></li>
+      <li class="phone"><a ng-href="mailto:info@elconcap.com"><h4><i class="fa fa-envelope" aria-hidden="true"></i>info@elconcap.com</h4></a></li>
+      <li class="email"><a ng-href="tel:07516830668"><h4><i class="fa fa-phone" aria-hidden="true"></i>0751-6830668</h4></a></li>
     </ul>
   </div>
 </div>
 <div class="row language-links">
-  <div class="col-xs-6">
-    <a href="#/home"><img src="assets/images/elcon-logo.jpg" alt="elcon logo"></a>
+  <div class="col-xs-6 col-xs-offset-4">
+    <a href="#/home"><img src="assets/images/elcon-logo.jpg" class="img-responsive" alt="elcon logo"></a>
   </div>
-  <div class="col-xs-6">
+  <div class="col-xs-2">
     <ul class="list-unstyled list-inline">
       <li class="language pull-right"><a href="#/english">English</a></li>
       <li class="language pull-right"><a href="#/chinese">中文版</a></li>
@@ -18,6 +18,8 @@
   </div>
 </div>
 <!--navbar-->
+<div class="row">
+  <div class="col-xs-12">
     <nav class="navbar navbar-static-top navbar-inverse">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -33,16 +35,19 @@
         <div class="collapse navbar-collapse" id="mainNav">
           <ul class="nav navbar-nav">
             <li class="active"><a ng-href="#/home">Home</a></li>
-            <li><a href="#/product">Product</a></li>
-            <li><a href="#/customer">Customer</a></li>
-            <li><a href="#/news">News</a></li>
-            <li><a href="#/download">Download</a></li>
-            <li><a href="#/career">Career</a></li>
+            <li><a ng-href="#/product">Product</a></li>
+            <li><a ng-href="#/customer">Customer</a></li>
+            <li><a ng-href="#/news">News</a></li>
+            <li><a ng-href="#/download">Download</a></li>
+            <li><a ng-href="#/career">Career</a></li>
             <li><a ng-href="#/contact">Contact</a></li>
           </ul>
         </div>
       </div>
     </nav>
+  </div>
+</div>
+
 
 
 
