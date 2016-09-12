@@ -4,6 +4,11 @@
         .controller('ProductController', ProductController);
 
     function ProductController ($scope){
-        $scope.open = false;
+        $scope.solidChip = false;
+        $scope.solidLead = false;
+        $scope.chipType = false;
+        $scope.miniature = false;
+        $scope.snapIn = false;
+        $scope.specialApp = false;
     }
 })();
