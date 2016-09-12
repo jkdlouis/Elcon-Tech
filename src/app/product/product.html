@@ -1,5 +1,5 @@
-<div ng-controller="product">
-    <div class="row product-cover">
+<div ng-controller="ProductController">
+<div class="row product-cover">
         <div class="col-xs-12">
             <h1>Elcon Products</h1>
             <h4>Providing a broad range of aluminum electric capacitors for your needs</h4>
@@ -11,30 +11,29 @@
     <div class="row text-center">
         <div class="col-xs-12">
         <ul class="list-unstyled list-inline">
-            <li><a href=""><img src="assets/images/product/solid-chip.jpg" class="img-responsive" alt="Solid Chip Type Series"></a></li>
-            <li><a href=""><img src="assets/images/product/solid-lead.jpg" class="img-responsive" alt="Solid lead Type Series"></a></li>
-            <li><a href=""><img src="assets/images/product/chip.jpg" class="img-responsive" alt="Chip Type Series"></a></li>
+            <li><a ng-href="#/product/solid-chip"><div ng-mouseenter="open = true" ng-mouseleave=" open = false"><div class="solid-chip"><h3 ng-show="open" class="title">Solid Chip Type</h3></div></div></a></li>
+            <li><a ng-href="#/product/solid-lead"><div ng-mouseenter="open = true" ng-mouseleave=" open = false"><div class="solid-lead"><h3 ng-show="open" class="title">Solid Lead Type</h3></div></div></a></li>
+            <li><a ng-href="#/product/chip-type"><div ng-mouseenter="open = true" ng-mouseleave=" open = false"><div class="chip-type"><h3  ng-show="open" class="title">Chip Type Series</h3></div></div></a></li>
         </ul>
         </div>
         <div class="col-xs-12">
             <ul class="list-unstyled list-inline">
-            <li><a href=""><img src="assets/images/product/miniature.jpg" class="img-responsive" alt="Miniature Series"></a></li>
-            <li><a href=""><img src="assets/images/product/high-rip.jpg" class="img-responsive" alt="High Rip Low Impe. Series"></a></li>
+                <li><a ng-href="#/product/miniature"><div ng-mouseenter="open = true" ng-mouseleave=" open = false"><div class="miniature"><h3 ng-show="open" class="title">Miniature Series</h3></div></div></a></li>
+                <li><a ng-href="#/product/high-rip"><div ng-mouseenter="open = true" ng-mouseleave=" open = false"><div class="high-rip"><h3 ng-show="open" class="title">High Rip Low Impe. Series</h3></div></div></a></li>
 
             </ul>
         </div>
         <div class="col-xs-12">
             <ul class="list-unstyled list-inline">
-            <li><a href=""><img src="assets/images/product/snap-in.jpg" class="img-responsive" alt="Snap-in Terminal Series"></a></li>
-            <li><a href=""><img src="assets/images/product/special-app.jpg" class="img-responsive" alt="Special Application Series"></a></li>
+                <li><a ng-href="#/product/snap-in"><div ng-mouseenter="open = true" ng-mouseleave=" open = false"><div class="snap-in"><h3 ng-show="open" class="title">Snap-in Terminal Series</h3></div></div></a></li>
+                <li><a ng-href="#/product/special-app"><div ng-mouseenter="open = true" ng-mouseleave=" open = false"><div class="special-app"><h3 ng-show="open" class="title">Special Application Series</h3></div></div></a></li>
             </ul>
         </div>
     </div>
 </section>
-
-
-
-
-
-
 </div>
+
+
+
+
+
