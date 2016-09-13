@@ -5,31 +5,26 @@
   border-top: 1px solid #787878;
   color: white;
   padding: 30px;
-}
-
-.footer h1 {
-  color: #018B3E;
-  margin-bottom: 20px;
-}
-
-.footer h5 {
-  margin-top: 30px;
+  h1 {
+    color: #018B3E;
+    margin-bottom: 20px;
+  }
+  h5 {
+    margin-top: 30px;
+  }
 }
 
 .footerNav {
   font-size: 2em;
   background-color: #283136;
   padding: 20px 0;
-}
-
-.footerNav ul > li {
-  margin-right: 30px;
-}
-
-.footerNav a {
-  color: white;
-}
-
-.footerNav a:hover {
-  color: #018B3E;
+  ul > li {
+    margin-right: 30px;
+  }
+  a {
+    color: white;
+  }
+  a:hover {
+    color: #018B3E;
+  }
 }

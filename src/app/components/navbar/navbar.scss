@@ -12,14 +12,12 @@
 
 .contact-header {
   background-color: $light-gray ;
-}
-
-.contact-header ul {
-  margin-right: 1.5%;
-}
-
-.contact-header ul > li {
-  margin-right: 30px;
+  ul {
+    margin-right: 1.5%;
+  }
+  ul > li {
+    margin-right: 30px;
+  }
 }
 
 .contact-header .fa.fa-envelope, .contact-header .fa.fa-phone {
@@ -41,11 +39,6 @@ ul > li.language {
 
 .navbar.navbar-static-top.navbar-inverse {
   margin: 10px 0 0 0;
-}
-
-//navabr
-
-.navbar-inverse {
   background-color: $main-green;
   border: none;
 }

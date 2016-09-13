@@ -83,33 +83,27 @@ nav {
 //about
 .about {
   padding: 30px;
+  h4 {
+    line-height: 2em;
+    color: #999999;
+  }
+  h1 {
+    margin: 30px 0;
+  }
 }
-
-.about h4 {
-  line-height: 2em;
-  color: #999999;
-}
-
-.about h1 {
-  margin: 30px 0;
-}
-
 //history
 .history {
   background-color: $light-gray;
   padding: 30px;
   height: 65rem;
+  h1 {
+    margin-bottom: 100px;
+  }
+  ul {
+    line-height: 2em;
+    color: #787878;
+  }
 }
-
-.history h1 {
-  margin-bottom: 100px;
-}
-
-.history ul {
-  line-height: 2em;
-  color: #787878;
-}
-
 //timeline
 
 .timeline {
@@ -118,7 +112,6 @@ nav {
   margin: 200px 0 0;
   border-top: 6px solid $line;
   display: table;
-  //border-spacing: 30px 0;
   li {
     display: table-cell;
     position: relative;
@@ -216,12 +209,10 @@ li.up {
 .certificate {
   padding: 30px;
   height: 85rem;
+  h3 {
+    margin-bottom: 50px;
+  }
 }
-
-.certificate h3 {
-  margin-bottom: 50px;
-}
-
 
 /**
  *  Do not remove the comments below. It's the markers used by gulp-inject to inject
