@@ -33,6 +33,12 @@
             controller: 'ContactController'
         })
 
+        .state('product-finder', {
+            url: '/product/product-finder',
+            templateUrl: 'app/product/product-finder/product-finder.html',
+            controller: 'ProductFinderController'
+        })
+
          .state('solid-chip', {
             url: '/product/solid-chip',
             templateUrl: 'app/product/solid-chip/solid-chip.html',

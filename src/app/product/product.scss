@@ -24,6 +24,29 @@
   }
 }
 
+.product-finder {
+  padding: 30px;
+  h1 {
+    margin-bottom: 30px;
+  }
+  h4 {
+    margin-bottom: 30px;
+  }
+  .btn-learn {
+    font-size: 2em;
+    color: $dark-gray;
+    border: 2px solid $dark-gray;
+    background-color: transparent;
+    width: 300px;
+    padding: 15px;
+    margin: 10px;
+  }
+  .btn-learn:hover {
+    background-color: $dark-gray !important;
+    border: 2px solid white;
+    color: white;
+  }
+}
 .product-category {
   padding: 30px;
   background-color: $light-gray;
