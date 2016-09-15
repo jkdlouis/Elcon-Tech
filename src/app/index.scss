@@ -60,36 +60,48 @@ nav {
   padding: 0.2em 0;
 }
 
-//.slide {
-//  width: 100%;
-//  overflow:hidden;
-//  position: relative;
-//}
-//
-//.slideShow ul {
-//  margin: 0;
-//  padding: 0;
-//}
-//
-//.slideShow li {
-//  list-style: none;
-//  width: 100%;
-//}
+.home {
+  h1 {
+    margin: 30px 0;
+    position: relative;
+  }
 
-.slideShow img {
+  h1:before {
+    background-color: $main-green;
+    content: "";
+    position: absolute;
+    left: 35%;
+    top: 20px;
+    height: 3px;
+    width: 30%;
+    z-index: 1;
+  }
+}
+
+.carousel {
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.carousel img {
   width: 100%;
 }
 
 //about
 .about {
   padding: 30px;
+  span {
+    background-color: white;
+    padding: 0 20px;
+    z-index:2;
+    position: relative;
+  }
   h4 {
     line-height: 2em;
     color: #999999;
   }
-  h1 {
-    margin: 30px 0;
-  }
+
 }
 //history
 .history {
@@ -98,6 +110,12 @@ nav {
   height: 65rem;
   h1 {
     margin-bottom: 100px;
+  }
+  h1 span {
+    background-color: $light-gray;
+    padding: 0 20px;
+    z-index:2;
+    position: relative;
   }
   ul {
     line-height: 2em;
@@ -119,7 +137,7 @@ nav {
   }
 }
 
-.circle {
+span.circle {
   margin: 0 auto;
   top: -14px;
   left: 0;
@@ -177,7 +195,7 @@ li.down {
     margin-bottom: 230px;
     margin-left: 70px;
   }
-  .circle {
+  span.circle {
     margin-top: 12px;
   }
   .avatar {
@@ -198,7 +216,7 @@ li.up {
   .date {
     margin-left: 65px;
   }
-  .circle {
+  span.circle {
     margin-top: -11px;
   }
   .avatar {
@@ -209,6 +227,12 @@ li.up {
 .certificate {
   padding: 30px;
   height: 85rem;
+  span {
+    background-color: white;
+    padding: 0 20px;
+    z-index:2;
+    position: relative;
+  }
   h3 {
     margin-bottom: 50px;
   }

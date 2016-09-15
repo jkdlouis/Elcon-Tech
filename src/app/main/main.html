@@ -1,23 +1,28 @@
-
-    <!-- Wrapper for slides -->
+<div ng-controller="MainController" class="home">
     <div class="row">
         <div class="col-xs-12">
-            <div class="slide">
-                <div class="slideShow">
-                    <ul class="list-unstyled">
-                        <li><img src="assets/images/shenzhen-city3.jpg" alt=""></li>
-                    </ul>
-                </div>
+            <div class="carousel">
+                    <uib-carousel interval="myInterval" active="activeSlide">
+                        <uib-slide ng-repeat="slide in slides" index="$index">
+                            <img ng-src="{{slide.image}}?{{$index}}" style="margin:auto;" alt="">
+                            <div class="carousel-caption">
+                            </div>
+                        </uib-slide>
+                    </uib-carousel>
             </div>
-        </div>
-    </div>
+            <!--<div id="slide_control">-->
+            <!--<img src="assets/images/shenzhen-city3.jpg" alt="">-->
+                <!--</div>-->
+            <!--</div>-->
 
+</div>
+    </div>
 
     <!--about section-->
     <div class="about">
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="text-center">About US</h1>
+                <h1 class="text-center"><span>About US</span></h1>
                 <h4>Elcon Electronics manufactures high-quality aluminum electric capacitors for use in consumer
                     electronics, communication technology, LED lighting, medical equipment, automotive electronics, and
                     many other fields. We have been manufacturing since 1990. Our head office is located in ShaoKwan with a factory
@@ -35,11 +40,11 @@
             </div>
         </div>
     </div>
-    <!--histoery section-->
+    <!--history section-->
     <div class="history">
         <div class="row">
             <div class="col-xs-12">
-                <h1 class="text-center">History</h1>
+                <h1 class="text-center"><span>History</span></h1>
                 <div class="col-lg-12">
                     <ul class='timeline'>
                         <li class='event up'>
@@ -157,9 +162,9 @@
     <div class="certificate">
         <div class="row text-center">
             <div class="col-xs-12">
-                <h1>Certificates</h1>
-                <h3>We are a certified Aluminum Electrolytic Capacitors</h3>
-                <img src="assets/images/certificates.jpg" alt="Elcon Certificates">
+                <h1><span>Certificates</span></h1>
+                <h3>We Are a Certified Supplier Of Aluminum Electrolytic Capacitors</h3>
+                <img ng-src="{{certificate.image}}" alt="{{certificate.name}}">
             </div>
         </div>
     </div>
@@ -189,5 +194,5 @@
     <!--</div>-->
     <!--</div>-->
     <!--</div>-->
-
+</div>
 

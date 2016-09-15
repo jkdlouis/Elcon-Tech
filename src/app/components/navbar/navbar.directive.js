@@ -3,10 +3,10 @@
 
   angular
     .module('augularWorkplace')
-    .directive('acmeNavbar', acmeNavbar);
+    .directive('elconNavbar', elconNavbar);
 
   /** @ngInject */
-  function acmeNavbar() {
+  function elconNavbar() {
     var directive = {
       restrict: 'E',
       templateUrl: 'app/components/navbar/navbar.html',

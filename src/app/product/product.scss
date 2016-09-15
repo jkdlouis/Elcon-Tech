@@ -6,7 +6,8 @@
   text-align: center;
 
   h1 {
-    margin-top: 15rem;
+    margin-top: 12rem;
+    margin-bottom: 20px;
     font-size: 5em;
     color: white;
   }
@@ -16,7 +17,7 @@
     border: 2px solid white;
     background-color: transparent;
     padding: 15px;
-    margin: 10px;
+    margin: 20px;
   }
   .btn-learn:hover {
     color: $main-green;
@@ -26,7 +27,7 @@
 
 .product-finder {
   padding: 30px;
-  h1 {
+  h2 {
     margin-bottom: 30px;
   }
   h4 {

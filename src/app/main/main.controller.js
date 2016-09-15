@@ -6,9 +6,30 @@
     .controller('MainController', MainController);
 
   /** @ngInject */
-  function MainController($timeout, webDevTec, toastr) {
-    var vm = this;
+  function MainController($scope, $animate, $timeout, webDevTec, toastr) {
+    // carousel
+    $scope.myInterval = 3000;
+    $scope.noWrapSlides = true;
+    $scope.activeSlide = 0;
+    $scope.slides = [
+        {
+      image: 'assets/images/shenzhen-city1.jpg'
+    },
+      {
+        image: 'assets/images/shenzhen-city3.jpg'
+      },
+      {
+        image: 'assets/images/shenzhen-city4.jpg'
+      }
+    ];
 
+    // certificate section
+    $scope.certificate = {
+      name: "Elcon Certificates",
+      image: "assets/images/certificates.jpg"
+    };
+
+    var vm = this;
     vm.awesomeThings = [];
     vm.classAnimation = '';
     vm.creationDate = 1472602141674;
