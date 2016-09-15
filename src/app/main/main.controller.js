@@ -6,7 +6,7 @@
     .controller('MainController', MainController);
 
   /** @ngInject */
-  function MainController($scope, $animate, $timeout, webDevTec, toastr) {
+  function MainController($scope, $timeout, webDevTec, toastr) {
     // carousel
     $scope.myInterval = 3000;
     $scope.noWrapSlides = true;
@@ -19,7 +19,7 @@
         image: 'assets/images/shenzhen-city3.jpg'
       },
       {
-        image: 'assets/images/shenzhen-city4.jpg'
+        image: 'assets/images/professionals.jpg'
       }
     ];
 
