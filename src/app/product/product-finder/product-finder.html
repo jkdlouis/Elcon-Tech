@@ -1,36 +1,36 @@
 <div ng-controller="SearchController">
-     <div class="product-search">
+     <div class="product-search" ng-init="initFirst()">
     <div class="row text-center search-area">
     <div class="col-xs-12">
         <h1>Product Finder</h1>
         <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</h4>
-        <form ng-submit="submit()" class="form-inline search-form">
+        <form ng-submit="submit()" method="post" class="form-inline search-form">
             <div class="form-group">
                 <div class="input-group">
                     <input ng-model="searchText" type="text" class="form-control search-bar" id="search" placeholder="I'm looking for...." required>
+                    <button type="submit" class="btn btn-lg">GO</button>
                 </div>
             </div>
-            <button type="submit" class="btn btn-lg">GO</button>
         </form>
     </div>
 </div>
 </div>
 <div class="search-results">
     <div class="row text-center">
-        <div class="col-xs-5 col-xs-offset-4">
-<div class="panel panel-default text-left">
-    <div ng-repeat="product in productList | filter:searchText">
-        <a ng-href="{{product.templateUrl}}">
-        <div class="panel-heading">
-        Part Number: {{product.partNumber}}
-        </div>
-        <div class="panel-body">
-            Series: {{product.series}} <br>
-            Name: {{product.name}}
-        </div>
-        </a>
-    </div>
-</div>
+        <div class="row">
+            <div class="col-sm-3 col-md-4">
+                <div class="thumbnail">
+                    <div ng-repeat="product in productList | filter: searchText">
+                        <img src="..." alt="...">
+                    <div class="caption">
+                        <h3>Series: {{product.series}}</h3>
+                        <h3>Part Number: {{product.partNumber}}</h3>
+                        <p>{{product.name}}</p>
+                        <p><a ng-href="{{product.templateUrl}}" class="btn btn-primary" role="button">PDF</a>
+                    </div>
+                </div>
+                    </div>
+            </div>
         </div>
     </div>
 </div>

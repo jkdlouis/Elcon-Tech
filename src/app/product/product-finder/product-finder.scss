@@ -17,6 +17,7 @@
     width: 80px;
     font-size: 2em;
     border-radius: 4px;
+    margin-top: 10px;
   }
   /*search button hover color*/
   .search-form button:hover {
@@ -27,8 +28,9 @@
   background-color: white;
   height: auto;
 
-  .panel {
-    font-size: 2em;
+  .thumbnail {
+    font-size: 1.5em;
     line-height: 1.5em;
   }
+
 }

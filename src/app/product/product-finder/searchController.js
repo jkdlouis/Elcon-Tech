@@ -4,6 +4,7 @@
         .controller('SearchController', SearchController);
 
     function SearchController ($scope){
+
         $scope.productList =
         [
                 {
@@ -215,12 +216,10 @@
                 }
             ];
 
+
         $scope.submit = function() {
-            if($scope.newData == productList.series || productList.partNumber || productList.name) {
-                return newData;
-            } else {
-                return error;
-            }
+            $scope.productList = productList;
         };
+
     }
 })();

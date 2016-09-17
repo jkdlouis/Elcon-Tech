@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a4827a5-4992-48b4-b87d-32034e43f856" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/product/product-finder/searchController.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/assets/product/5-6____.pdf" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/assets/product/part-numbers.pdf" afterPath="$PROJECT_DIR$/src/assets/product/part-numbers.pdf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/serve/app/index.css" afterPath="$PROJECT_DIR$/.tmp/serve/app/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/serve/index.html" afterPath="$PROJECT_DIR$/.tmp/serve/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/index.route.js" afterPath="$PROJECT_DIR$/src/app/index.route.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/index.scss" afterPath="$PROJECT_DIR$/src/app/index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/main/main.html" afterPath="$PROJECT_DIR$/src/app/main/main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/product/product-finder/product-finder.html" afterPath="$PROJECT_DIR$/src/app/product/product-finder/product-finder.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/product/product-finder/product-finder.scss" afterPath="$PROJECT_DIR$/src/app/product/product-finder/product-finder.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/product/product.html" afterPath="$PROJECT_DIR$/src/app/product/product.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/product/product-finder/searchController.js" afterPath="$PROJECT_DIR$/src/app/product/product-finder/searchController.js" />
     </list>
     <ignored path="elconcap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="product-finder.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="product-finder.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/product/product-finder/product-finder.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            <state relative-caret-position="181">
+              <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -50,8 +42,8 @@
       <file leaf-file-name="searchController.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/product/product-finder/searchController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="216" column="0" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
+            <state relative-caret-position="375">
+              <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -60,60 +52,8 @@
       <file leaf-file-name="product-finder.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/product/product-finder/product-finder.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/product/product.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="121" selection-start-line="8" selection-start-column="121" selection-end-line="8" selection-end-column="121" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/main/main.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2475">
-              <caret line="165" column="19" selection-start-line="165" selection-start-column="19" selection-end-line="165" selection-end-column="19" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#uib-slide#0;n#uib-carousel#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.controller.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app/main/main.controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/index.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="242" column="4" selection-start-line="242" selection-start-column="4" selection-end-line="242" selection-end-column="4" />
+            <state relative-caret-position="540">
+              <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -174,10 +114,10 @@
         <option value="$PROJECT_DIR$/src/app/product/product.html" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/app/product/product-finder/product-list.js" />
+        <option value="$PROJECT_DIR$/src/app/main/main.controller.js" />
         <option value="$PROJECT_DIR$/src/app/product/product-finder/searchController.js" />
         <option value="$PROJECT_DIR$/src/app/product/product-finder/product-finder.scss" />
         <option value="$PROJECT_DIR$/src/app/product/product-finder/product-finder.html" />
-        <option value="$PROJECT_DIR$/src/app/main/main.controller.js" />
       </list>
     </option>
   </component>
@@ -195,7 +135,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-19" />
+    <option name="x" value="148" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="700" />
@@ -502,15 +442,15 @@
       <updated>1472602348043</updated>
       <workItem from="1472602349769" duration="46004000" />
       <workItem from="1473837027816" duration="19817000" />
-      <workItem from="1474045220945" duration="18606000" />
+      <workItem from="1474045220945" duration="24572000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117243000" />
+    <option name="totallyTimeSpent" value="123209000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-19" y="23" width="1280" height="700" extended-state="0" />
+    <frame x="148" y="23" width="1280" height="700" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -868,16 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/main/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2475">
-          <caret line="165" column="19" selection-start-line="165" selection-start-column="19" selection-end-line="165" selection-end-column="19" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#uib-slide#0;n#uib-carousel#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/product/product-finder/product-list.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3075">
@@ -886,11 +816,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/product/product.html">
+    <entry file="file://$PROJECT_DIR$/src/app/main/main.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="121" selection-start-line="8" selection-start-column="121" selection-end-line="8" selection-end-column="121" />
+        <state relative-caret-position="150">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/main/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2475">
+          <caret line="165" column="19" selection-start-line="165" selection-start-column="19" selection-end-line="165" selection-end-column="19" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#uib-slide#0;n#uib-carousel#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -902,34 +842,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/product/product-finder/product-finder.scss">
+    <entry file="file://$PROJECT_DIR$/src/app/product/product.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        <state relative-caret-position="-90">
+          <caret line="8" column="121" selection-start-line="8" selection-start-column="121" selection-end-line="8" selection-end-column="121" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/product/product-finder/searchController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="216" column="0" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
+        <state relative-caret-position="375">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/product/product-finder/product-finder.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/product/product-finder/product-finder.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/main/main.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        <state relative-caret-position="181">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
           <folding />
         </state>
       </provider>
