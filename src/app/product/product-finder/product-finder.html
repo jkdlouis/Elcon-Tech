@@ -1,10 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-
-</body>
-</html>
+<div ng-controller="SearchController">
+     <div class="product-search">
+    <div class="row text-center search-area">
+    <div class="col-xs-12">
+        <h1>Product Finder</h1>
+        <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</h4>
+        <form ng-submit="submit()" class="form-inline search-form">
+            <div class="form-group">
+                <div class="input-group">
+                    <input ng-model="searchText" type="text" class="form-control search-bar" id="search" placeholder="I'm looking for...." required>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-lg">GO</button>
+        </form>
+    </div>
+</div>
+</div>
+<div class="search-results">
+    <div class="row text-center">
+        <div class="col-xs-5 col-xs-offset-4">
+<div class="panel panel-default text-left">
+    <div ng-repeat="product in productList | filter:searchText">
+        <a ng-href="{{product.templateUrl}}">
+        <div class="panel-heading">
+        Part Number: {{product.partNumber}}
+        </div>
+        <div class="panel-body">
+            Series: {{product.series}} <br>
+            Name: {{product.name}}
+        </div>
+        </a>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+</div>

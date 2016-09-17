@@ -36,7 +36,7 @@
         .state('product-finder', {
             url: '/product/product-finder',
             templateUrl: 'app/product/product-finder/product-finder.html',
-            controller: 'ProductFinderController'
+            controller: 'SearchController'
         })
 
          .state('solid-chip', {

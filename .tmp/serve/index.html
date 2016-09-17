@@ -19,10 +19,7 @@
     <link rel="stylesheet" href="app/index.css">
     <!-- endinject -->
     <!-- endbuild -->
-    <link rel="stylesheet" href="app/product/product.scss">
-    <link rel="stylesheet" href="app/components/footer/footer.scss">
     <link rel="stylesheet" href="assets/font-awesome-4.6.3/css/font-awesome.min.css">
-    <script src="app/components/footer/footer.directive.js"></script>
   </head>
   <body>
   <div class="container-fluid">
@@ -55,13 +52,14 @@
     <!-- build:js({.tmp/serve,.tmp/partials,src}) scripts/app.js -->
     <!-- inject:js -->
     <script src="app/index.module.js"></script>
+    <script src="app/product/product-finder/searchController.js"></script>
     <script src="app/components/webDevTec/webDevTec.service.js"></script>
     <script src="app/components/navbar/navbar.directive.js"></script>
     <script src="app/components/malarkey/malarkey.directive.js"></script>
     <script src="app/components/githubContributor/githubContributor.service.js"></script>
     <script src="app/components/footer/footer.directive.js"></script>
-    <script src="app/main/main.controller.js"></script>
     <script src="app/product/product.controller.js"></script>
+    <script src="app/main/main.controller.js"></script>
     <script src="app/download/download.controller.js"></script>
     <script src="app/index.run.js"></script>
     <script src="app/index.route.js"></script>
