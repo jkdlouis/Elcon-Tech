@@ -18,19 +18,17 @@
 <div class="search-results">
     <div class="row text-center">
         <div class="row">
-            <div class="col-sm-3 col-md-4">
-                <div class="thumbnail">
-                    <div ng-repeat="product in productList | filter: searchText">
-                        <img src="..." alt="...">
+                    <div ng-repeat="product in productList | filter: searchText" class="col-sm-3 col-md-4">
+                        <div class="thumbnail">
+                        <img ng-src="{{product.image}}" alt="{{product.alt}}">
                     <div class="caption">
-                        <h3>Series: {{product.series}}</h3>
-                        <h3>Part Number: {{product.partNumber}}</h3>
-                        <p>{{product.name}}</p>
-                        <p><a ng-href="{{product.templateUrl}}" class="btn btn-primary" role="button">PDF</a>
+                        <h4>Series: {{product.series}}</h4>
+                        <h4>Part Number: {{product.partNumber}}</h4>
+                        <h5>{{product.name}}</h5>
+                        <p><a ng-href="{{product.templateUrl}}" class="btn btn-lg btn-learn" role="button">Learn More</a>
                     </div>
                 </div>
                     </div>
-            </div>
         </div>
     </div>
 </div>
