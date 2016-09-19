@@ -21,10 +21,10 @@
             controller: 'ProductController'
         })
 
-        .state('download', {
-            url: '/download',
-            templateUrl: 'app/download/download.html',
-            controller: 'DownloadController'
+        .state('career', {
+            url: '/career',
+            templateUrl: 'app/career/career.html',
+            controller: 'CareerController'
         })
 
         .state('contact', {

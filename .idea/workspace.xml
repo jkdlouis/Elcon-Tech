@@ -2,29 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a4827a5-4992-48b4-b87d-32034e43f856" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/product/chip-type/chip-type.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/product/high-rip/high-rip.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/product/miniature/miniature.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/product/snap-in/snap-in.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/product/solid-chip/solid-chip.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/product/solid-lead/solid-lead.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/product/special-app/special-app.scss" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/download/download.controller.js" afterPath="$PROJECT_DIR$/src/app/career/career.controller.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/download/download.html" afterPath="$PROJECT_DIR$/src/app/career/career.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/download/download.scss" afterPath="$PROJECT_DIR$/src/app/career/career.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/serve/app/index.css" afterPath="$PROJECT_DIR$/.tmp/serve/app/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.tmp/serve/index.html" afterPath="$PROJECT_DIR$/.tmp/serve/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/footer/footer.html" afterPath="$PROJECT_DIR$/src/app/components/footer/footer.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/components/navbar/navbar.html" afterPath="$PROJECT_DIR$/src/app/components/navbar/navbar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/index.scss" afterPath="$PROJECT_DIR$/src/app/index.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/product/chip-type/chip-type.html" afterPath="$PROJECT_DIR$/src/app/product/chip-type/chip-type.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/product/high-rip/high-rip.html" afterPath="$PROJECT_DIR$/src/app/product/high-rip/high-rip.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/product/miniature/miniature.html" afterPath="$PROJECT_DIR$/src/app/product/miniature/miniature.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/contact/contact.html" afterPath="$PROJECT_DIR$/src/app/contact/contact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/contact/contact.scss" afterPath="$PROJECT_DIR$/src/app/contact/contact.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/index.route.js" afterPath="$PROJECT_DIR$/src/app/index.route.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/product/product-finder/product-finder.html" afterPath="$PROJECT_DIR$/src/app/product/product-finder/product-finder.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/product/product-finder/product-finder.scss" afterPath="$PROJECT_DIR$/src/app/product/product-finder/product-finder.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/product/product-finder/searchController.js" afterPath="$PROJECT_DIR$/src/app/product/product-finder/searchController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/product/product.scss" afterPath="$PROJECT_DIR$/src/app/product/product.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/product/snap-in/snap-in.html" afterPath="$PROJECT_DIR$/src/app/product/snap-in/snap-in.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/product/solid-chip/solid-chip.html" afterPath="$PROJECT_DIR$/src/app/product/solid-chip/solid-chip.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/product/solid-lead/solid-lead.html" afterPath="$PROJECT_DIR$/src/app/product/solid-lead/solid-lead.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/product/special-app/special-app.html" afterPath="$PROJECT_DIR$/src/app/product/special-app/special-app.html" />
     </list>
     <ignored path="elconcap.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,58 +37,38 @@
       <file leaf-file-name="product.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/product/product.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chip-type.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/product/chip-type/chip-type.html">
+      <file leaf-file-name="contact.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/app/contact/contact.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="390">
+              <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="miniature.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app/product/miniature/miniature.html">
+      <file leaf-file-name="contact.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/contact/contact.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/product/product.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product-finder.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/product/product-finder/product-finder.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="product-finder.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/product/product-finder/product-finder.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="searchController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/product/product-finder/searchController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="269" column="89" selection-start-line="269" selection-start-column="28" selection-end-line="269" selection-end-column="89" />
+              <caret line="8" column="121" selection-start-line="8" selection-start-column="121" selection-end-line="8" selection-end-column="121" />
               <folding />
             </state>
           </provider>
@@ -134,8 +101,6 @@
         <option value="$PROJECT_DIR$/src/app/product/product.css" />
         <option value="$PROJECT_DIR$/src/app/download/download.html" />
         <option value="$PROJECT_DIR$/src/app/download/download.controller.js" />
-        <option value="$PROJECT_DIR$/src/app/contact/contact.html" />
-        <option value="$PROJECT_DIR$/src/app/components/footer/footer.html" />
         <option value="$PROJECT_DIR$/src/app/components/navbar/navbar.scss" />
         <option value="$PROJECT_DIR$/src/app/components/footer/footer.scss" />
         <option value="$PROJECT_DIR$/src/app/product/miniature/miniature.scss" />
@@ -146,15 +111,12 @@
         <option value="$PROJECT_DIR$/src/app/product/special-app/special-app.scss" />
         <option value="$PROJECT_DIR$/src/app/product/product.controller.js" />
         <option value="$PROJECT_DIR$/src/app/components/navbar/navbar.directive.js" />
-        <option value="$PROJECT_DIR$/src/app/index.route.js" />
         <option value="$PROJECT_DIR$/src/app/product/product.html" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/app/product/product-finder/product-list.js" />
         <option value="$PROJECT_DIR$/src/app/main/main.controller.js" />
-        <option value="$PROJECT_DIR$/src/app/components/navbar/navbar.html" />
         <option value="$PROJECT_DIR$/src/app/main/main.html" />
         <option value="$PROJECT_DIR$/src/app/index.scss" />
-        <option value="$PROJECT_DIR$/src/app/product/product-finder/product-finder.html" />
         <option value="$PROJECT_DIR$/src/app/product/solid-lead/solid-lead.scss" />
         <option value="$PROJECT_DIR$/src/app/product/product.scss" />
         <option value="$PROJECT_DIR$/src/app/product/solid-lead/solid-lead.html" />
@@ -166,6 +128,13 @@
         <option value="$PROJECT_DIR$/src/app/product/product-finder/searchController.js" />
         <option value="$PROJECT_DIR$/src/app/product/miniature/miniature.html" />
         <option value="$PROJECT_DIR$/src/app/product/product-finder/product-finder.scss" />
+        <option value="$PROJECT_DIR$/src/app/product/product-finder/product-finder.html" />
+        <option value="$PROJECT_DIR$/src/app/index.route.js" />
+        <option value="$PROJECT_DIR$/src/app/components/footer/footer.html" />
+        <option value="$PROJECT_DIR$/src/app/components/navbar/navbar.html" />
+        <option value="$PROJECT_DIR$/src/app/career/career.controller.js" />
+        <option value="$PROJECT_DIR$/src/app/contact/contact.scss" />
+        <option value="$PROJECT_DIR$/src/app/contact/contact.html" />
       </list>
     </option>
   </component>
@@ -183,8 +152,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-61" />
-    <option name="y" value="51" />
+    <option name="x" value="90" />
+    <option name="y" value="39" />
     <option name="width" value="1280" />
     <option name="height" value="700" />
   </component>
@@ -444,7 +413,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
+              <option name="myItemId" value="contact" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -538,21 +507,22 @@
       <updated>1472602348043</updated>
       <workItem from="1472602349769" duration="46004000" />
       <workItem from="1473837027816" duration="19817000" />
-      <workItem from="1474045220945" duration="34324000" />
+      <workItem from="1474045220945" duration="36938000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132961000" />
+    <option name="totallyTimeSpent" value="135575000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-61" y="51" width="1280" height="700" extended-state="0" />
+    <frame x="90" y="39" width="1280" height="700" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27799842" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -565,7 +535,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -657,36 +626,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/download/download.html">
+    <entry file="file://$PROJECT_DIR$/src/app/career/career.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/download/download.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/download/download.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/contact/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/contact/contact.scss">
+    <entry file="file://$PROJECT_DIR$/src/app/career/career.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -758,20 +705,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/navbar/navbar.directive.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/footer/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -798,14 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/index.route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
           <folding />
         </state>
       </provider>
@@ -838,22 +763,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/components/navbar/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/product/product.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="121" selection-start-line="8" selection-start-column="121" selection-end-line="8" selection-end-column="121" />
           <folding />
         </state>
       </provider>
@@ -900,22 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/product/product.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/product/chip-type/chip-type.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/product/snap-in/snap-in.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -940,10 +833,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/product/product-finder/product-finder.html">
+    <entry file="file://$PROJECT_DIR$/src/app/components/footer/footer.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="210">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/index.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/navbar/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/components/navbar/navbar.directive.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -952,6 +869,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="269" column="89" selection-start-line="269" selection-start-column="28" selection-end-line="269" selection-end-column="89" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/career/career.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/product/product-finder/product-finder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
           <folding />
         </state>
       </provider>
@@ -968,6 +901,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/product/chip-type/chip-type.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/product/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="121" selection-start-line="8" selection-start-column="121" selection-end-line="8" selection-end-column="121" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/product/product.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/contact/contact.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/contact/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="58" selection-start-line="26" selection-start-column="58" selection-end-line="26" selection-end-column="58" />
           <folding />
         </state>
       </provider>
