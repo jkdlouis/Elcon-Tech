@@ -1,28 +1,24 @@
-<div class="miniature-series">
-    <div class="row">
-        <div class="col-xs-6">
-            <div class="miniature-img"></div>
+<div ng-controller="SearchController">
+    <div class="all-product-header">
+        <div class="row text-center">
+            <div class="col-xs-12">
+                <h1>Miniature Series</h1>
+            </div>
         </div>
-        <div class="col-xs-5 col-xs-offset-1">
-            <h1>Solid Chip Type Series</h1>
-            <h3><a href="assets/product/miniature/43-44-UH.pdf" target="_blank">UH Series</a>
-            </h3>
-            <h3><a href="assets/product/miniature/49-50-TP.pdf" target="_blank">TP Series</a>
-            </h3>
-            <h3><a href="assets/product/miniature/57-58-LA.pdf" target="_blank">LA Series</a>
-            </h3>
-            <h3><a href="assets/product/miniature/65-66-SK.pdf" target="_blank">SK Series</a>
-            </h3>
-            <h3><a href="assets/product/miniature/69-70-SL.pdf" target="_blank">SL Series</a>
-            </h3>
-            <h3><a href="assets/product/miniature/73-74-SG.pdf" target="_blank">SG Series</a>
-            </h3>
-            <h3><a href="assets/product/miniature/81-82-HG.pdf" target="_blank">HG Series</a>
-            </h3>
-            <h3><a href="assets/product/miniature/83-84-EG.pdf" target="_blank">EG Series</a>
-            </h3>
-            <h3><a href="assets/product/miniature/85-86-GC.pdf" target="_blank">MX High Voltage/High Reliability</a>
-            </h3>
+    </div>
+    <div class="search-results">
+        <div class="row text-center">
+            <div ng-repeat="product in productList | filter: {alt: 'Miniature Series Radial Lead Aluminum Electrolytic Capacitors'}" class="col-sm-3 col-md-4">
+                <div class="thumbnail">
+                    <img ng-src="{{product.image}}" alt="{{product.alt}}">
+                    <div class="caption">
+                        <h4>Series: {{product.series}}</h4>
+                        <h4>Part Number: {{product.partNumber}}</h4>
+                        <h5>{{product.name}}</h5>
+                        <p><a ng-href="{{product.templateUrl}}" class="btn btn-lg btn-learn" role="button">Learn More</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

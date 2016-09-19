@@ -25,14 +25,14 @@
   }
 }
 .search-results {
-  background-color: white;
+  background-color: $light-gray;
   height: auto;
   padding: 30px;
 
   .thumbnail {
     padding: 20px;
     line-height: 1.5em;
-    height: 400px;
+    height: 410px;
   }
   .thumbnail img {
     width: 150px;
@@ -46,10 +46,15 @@
     color: black;
     border: 2px solid black;
     background-color: transparent;
-    padding: 15px;
+    padding: 10px;
     margin: 20px;
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     border-radius: 0;
+  }
+  .thumbnail .btn-learn:hover {
+    background-color: $dark-gray;
+    border: 2px solid white;
+    color: white;
   }
 }

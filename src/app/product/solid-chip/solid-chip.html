@@ -1,23 +1,24 @@
-<div class="solid-chip-series">
-    <div class="row">
-        <div class="col-xs-6">
-            <div class="solid-chip-img"></div>
+<div ng-controller="SearchController">
+    <div class="all-product-header">
+        <div class="row text-center">
+            <div class="col-xs-12">
+                <h1>Solid Chip Type Series</h1>
+            </div>
         </div>
-        <div class="col-xs-5 col-xs-offset-1">
-            <h1>Solid Chip Type Series</h1>
-            <h3><a href="assets/product/solid-chip-type/ma.pdf" target="_blank">MA Standard</a>
-            </h3>
-            <h3><a href="assets/product/solid-chip-type/mb.pdf" target="_blank">MB Long Life Assurance</a>
-            </h3>
-            <h3><a href="assets/product/solid-chip-type/ms.pdf" target="_blank">MS Long Life Assurance</a>
-            </h3>
-            <h3><a href="assets/product/solid-chip-type/mv.pdf" target="_blank">MV High Voltage/Long Life Assurance</a>
-            </h3>
-            <h3><a href="assets/product/solid-chip-type/mr.pdf" target="_blank">MR High Voltage/High Reliability</a>
-            </h3>
-            <h3><a href="assets/product/solid-chip-type/mx.pdf" target="_blank">MX High Voltage/High Reliability</a>
-            </h3>
-
+    </div>
+    <div class="search-results">
+        <div class="row text-center">
+            <div ng-repeat="product in productList | filter: {partNumber: 'EPM'}" class="col-sm-3 col-md-4">
+                <div class="thumbnail">
+                    <img ng-src="{{product.image}}" alt="{{product.alt}}">
+                    <div class="caption">
+                        <h4>Series: {{product.series}}</h4>
+                        <h4>Part Number: {{product.partNumber}}</h4>
+                        <h5>{{product.name}}</h5>
+                        <p><a ng-href="{{product.templateUrl}}" class="btn btn-lg btn-learn" role="button">Learn More</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

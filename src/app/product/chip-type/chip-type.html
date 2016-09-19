@@ -1,24 +1,24 @@
-<div class="chip-type-series">
-    <div class="row">
-        <div class="col-xs-6">
-            <div class="chip-type-img"></div>
+<div ng-controller="SearchController">
+    <div class="all-product-header">
+        <div class="row text-center">
+            <div class="col-xs-12">
+                <h1>Chip Type Series</h1>
+            </div>
         </div>
-        <div class="col-xs-6">
-            <h1>Chip Type Series</h1>
-            <h3><a href="assets/product/chip-type/pa.pdf" target="_blank">PA Radial Lead Type, Standard Series</a>
-            </h3>
-            <h3><a href="assets/product/chip-type/pr.pdf" target="_blank">PR Radial Lead Type, Long Life Assurance Series</a>
-            </h3>
-            <h3><a href="assets/product/chip-type/ps.pdf" target="_blank">PS Radial Lead Type, Long Life Assurance Series</a>
-            </h3>
-            <h3><a href="assets/product/chip-type/pv.pdf" target="_blank">PV Radial Lead Type, Long Life Assurance Series</a>
-            </h3>
-            <h3><a href="assets/product/chip-type/px.pdf" target="_blank">PX Radial Lead Type, Long Life Assurance Series</a>
-            </h3>
-            <h3><a href="assets/product/chip-type/pb-2.pdf" target="_blank">PB Radial Lead Type, Ultra-low ESR Series</a>
-            </h3>
-            <h3><a href="assets/product/chip-type/pr-2.pdf" target="_blank">PR Radial Lead Type, Long Life Assurance Series</a>
-            </h3>
+    </div>
+    <div class="search-results">
+        <div class="row text-center">
+            <div ng-repeat="product in productList | filter: {alt: 'Surface Mount Aluminum Electrolytic Capacitors'}" class="col-sm-3 col-md-4">
+                <div class="thumbnail">
+                    <img ng-src="{{product.image}}" alt="{{product.alt}}">
+                    <div class="caption">
+                        <h4>Series: {{product.series}}</h4>
+                        <h4>Part Number: {{product.partNumber}}</h4>
+                        <h5>{{product.name}}</h5>
+                        <p><a ng-href="{{product.templateUrl}}" class="btn btn-lg btn-learn" role="button">Learn More</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

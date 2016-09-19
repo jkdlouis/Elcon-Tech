@@ -1,20 +1,24 @@
-<div class="snap-in-terminal-series">
-    <div class="row">
-        <div class="col-xs-6">
-            <div class="snap-in-img"></div>
+<div ng-controller="SearchController">
+    <div class="all-product-header">
+        <div class="row text-center">
+            <div class="col-xs-12">
+                <h1>Miniature Series</h1>
+            </div>
         </div>
-        <div class="col-xs-5 col-xs-offset-1">
-            <h1>Snap-in Terminal Series</h1>
-            <h3><a href="assets/product/solid-chip-type/130-131-132-133-GS-GH.pdf" target="_blank">GS/GH Series</a>
-            </h3>
-            <h3><a href="assets/product/solid-chip-type/138-139-140-MP.pdf" target="_blank">MP Series</a>
-            </h3>
-            <h3><a href="assets/product/solid-chip-type/141-142-143-144-=MA__MZ.pdf" target="_blank">MZ Series</a>
-            </h3>
-            <h3><a href="assets/product/solid-chip-type/149-150-KM.pdf" target="_blank">KM Series</a>
-            </h3>
-            <h3><a href="assets/product/solid-chip-type/156-157-158-MQ.pdf" target="_blank">MQ Series</a>
-            </h3>
+    </div>
+    <div class="search-results">
+        <div class="row text-center">
+            <div ng-repeat="product in productList | filter: {name: 'Snap-in Terminal Type Aluminum Electrolytic Capacitors'}" class="col-sm-3 col-md-4">
+                <div class="thumbnail">
+                    <img ng-src="{{product.image}}" alt="{{product.alt}}">
+                    <div class="caption">
+                        <h4>Series: {{product.series}}</h4>
+                        <h4>Part Number: {{product.partNumber}}</h4>
+                        <h5>{{product.name}}</h5>
+                        <p><a ng-href="{{product.templateUrl}}" class="btn btn-lg btn-learn" role="button">Learn More</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

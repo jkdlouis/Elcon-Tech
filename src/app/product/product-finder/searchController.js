@@ -121,7 +121,7 @@
                 "series": "CH",
                 "name": "Surface Mount Aluminum Electrolytic Capacitors",
                 "partNumber": "",
-                templateUrl: "",
+                templateUrl: "../assets/product/chip-type/CH.pdf",
                 "image": "../assets/product/chip-type/ch.png",
                 "alt": "CH Series Surface Mount Aluminum Electrolytic Capacitors"
             },
@@ -129,7 +129,7 @@
                 "series": "CK",
                 "name": "Surface Mount Aluminum Electrolytic Capacitors",
                 "partNumber": "",
-                templateUrl: "",
+                templateUrl: "../assets/product/chip-type/CK.pdf",
                 "image": "../assets/product/chip-type/ch.png",
                 "alt": "CK Series Surface Mount Aluminum Electrolytic Capacitors"
             },
@@ -137,7 +137,7 @@
                 "series": "EL",
                 "name": "Surface Mount Aluminum Electrolytic Capacitors",
                 "partNumber": "",
-                templateUrl: "",
+                templateUrl: "../assets/product/chip-type/EL.pdf",
                 "image": "../assets/product/chip-type/el.png",
                 "alt": "EL Series Surface Mount Aluminum Electrolytic Capacitors"
             },
@@ -145,7 +145,7 @@
                 "series": "FZ",
                 "name": "Surface Mount Aluminum Electrolytic Capacitors",
                 "partNumber": "",
-                templateUrl: "",
+                templateUrl: "../assets/product/chip-type/FZ.pdf",
                 "image": "../assets/product/chip-type/fz.png",
                 "alt": "FZ Series Surface Mount Aluminum Electrolytic Capacitors"
             },
@@ -153,7 +153,7 @@
                 "series": "HU",
                 "name": "Surface Mount Aluminum Electrolytic Capacitors",
                 "partNumber": "",
-                templateUrl: "",
+                templateUrl: "../assets/product/chip-type/HU.pdf",
                 "image": "../assets/product/chip-type/hu.png",
                 "alt": "HU Series Surface Mount Aluminum Electrolytic Capacitors"
             },
@@ -161,7 +161,7 @@
                 "series": "KH",
                 "name": "Surface Mount Aluminum Electrolytic Capacitors",
                 "partNumber": "",
-                templateUrl: "",
+                templateUrl: "../assets/product/chip-type/KH.pdf",
                 "image": "../assets/product/chip-type/kh.png",
                 "alt": "KH Series Surface Mount Aluminum Electrolytic Capacitors"
             },
@@ -169,7 +169,7 @@
                 "series": "KL",
                 "name": "Surface Mount Aluminum Electrolytic Capacitors",
                 "partNumber": "",
-                templateUrl: "",
+                templateUrl: "../assets/product/chip-type/KL.pdf",
                 "image": "../assets/product/chip-type/kl.png",
                 "alt": "KL Series Surface Mount Aluminum Electrolytic Capacitors"
             },
@@ -177,7 +177,7 @@
                 "series": "KP",
                 "name": "Surface Mount Aluminum Electrolytic Capacitors",
                 "partNumber": "",
-                templateUrl: "",
+                templateUrl: "../assets/product/chip-type/KP.pdf",
                 "image": "../assets/product/chip-type/kp.png",
                 "alt": "KP Series Surface Mount Aluminum Electrolytic Capacitors"
             },
@@ -185,7 +185,7 @@
                 "series": "KZ",
                 "name": "Surface Mount Aluminum Electrolytic Capacitors",
                 "partNumber": "",
-                templateUrl: "",
+                templateUrl: "../assets/product/chip-type/KZ.pdf",
                 "image": "../assets/product/chip-type/kz.png",
                 "alt": "KZ Series Surface Mount Aluminum Electrolytic Capacitors"
             },
@@ -193,7 +193,7 @@
                 "series": "LZ",
                 "name": "Surface Mount Aluminum Electrolytic Capacitors",
                 "partNumber": "",
-                templateUrl: "",
+                templateUrl: "../assets/product/chip-type/LZ.pdf",
                 "image": "../assets/product/chip-type/lz.png",
                 "alt": "LZ Series Surface Mount Aluminum Electrolytic Capacitors"
             },
@@ -201,7 +201,7 @@
                 "series": "SC",
                 "name": "Surface Mount Aluminum Electrolytic Capacitors",
                 "partNumber": "",
-                templateUrl: "",
+                templateUrl: "../assets/product/chip-type/SC.pdf",
                 "image": "../assets/product/chip-type/sc.png",
                 "alt": "SC Series Surface Mount Aluminum Electrolytic Capacitors"
             },
@@ -211,63 +211,63 @@
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/miniature/43-44-UH.pdf",
                     "image": "../assets/product/miniature/uh.png",
-                    "alt": "UH Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "Miniature Series Radial Lead Aluminum Electrolytic Capacitors"
                 },
                 {
                     "series":"TP",
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/miniature/49-50-TP.pdf",
                     "image": "../assets/product/miniature/tp.png",
-                    "alt": "TP Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "Miniature Series Radial Lead Aluminum Electrolytic Capacitors"
                 },
                 {
                     "series":"LA",
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/miniature/57-58-LA.pdf",
                     "image": "../assets/product/miniature/la.png",
-                    "alt": "LA Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "Miniature Series Radial Lead Aluminum Electrolytic Capacitors"
                 },
                 {
                     "series":"SK",
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/miniature/65-66-SK.pdf",
                     "image": "../assets/product/miniature/sk.png",
-                    "alt": "SK Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "Miniature Series Radial Lead Aluminum Electrolytic Capacitors"
                 },
                 {
                     "series":"SL",
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/miniature/69-70-SL.pdf",
                     "image": "../assets/product/miniature/sl.png",
-                    "alt": "SL Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "Miniature Series Radial Lead Aluminum Electrolytic Capacitors"
                 },
                 {
                     "series":"SG",
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/miniature/73-74-SG.pdf",
                     "image": "../assets/product/miniature/sg.png",
-                    "alt": "SG Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "Miniature Series Radial Lead Aluminum Electrolytic Capacitors"
                 },
                 {
                     "series":"HG",
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/miniature/81-82-HG.pdf",
                     "image": "../assets/product/miniature/hg.png",
-                    "alt": "HG Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "Miniature Series Radial Lead Aluminum Electrolytic Capacitors"
                 },
                 {
                     "series":"EG",
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/miniature/83-84-EG.pdf",
                     "image": "../assets/product/miniature/eg.png",
-                    "alt": "EG Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "Miniature Series Radial Lead Aluminum Electrolytic Capacitors"
                 },
                 {
                     "series":"GC",
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/miniature/85-86-GC.pdf",
                     "image": "../assets/product/miniature/gc.png",
-                    "alt": "GC Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "Miniature Series Radial Lead Aluminum Electrolytic Capacitors"
                 },
                 // high-rip
                 {
@@ -275,28 +275,28 @@
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/high-rip/95-96-97-LR.pdf",
                     "image": "../assets/product/high-rip/lr.png",
-                    "alt": "LR Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "High Rips Low ESR Series Radial Lead Aluminum Electrolytic Capacitors"
                 },
                 {
                     "series":"LH",
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/high-rip/101-102-103-LH.pdf",
                     "image": "../assets/product/high-rip/lh.png",
-                    "alt": "LH Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "High Rips Low ESR Series Radial Lead Aluminum Electrolytic Capacitors"
                 },
                 {
                     "series":"ZL",
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/high-rip/107-108-ZL.pdf",
                     "image": "../assets/product/high-rip/zl.png",
-                    "alt": "ZL Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "High Rips Low ESR Series Radial Lead Aluminum Electrolytic Capacitors"
                 },
                 {
                     "series":"LF",
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/high-rip/111-112-LF.pdf",
                     "image": "../assets/product/high-rip/lf.png",
-                    "alt": "LF Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "High Rips Low ESR Series Radial Lead Aluminum Electrolytic Capacitors"
                 },
                 {
                     "series":"YA",
@@ -361,21 +361,21 @@
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/special-app/159-160-EH.pdf",
                     "image": "../assets/product/special-app/eh.png",
-                    "alt": "EH Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "Special Series Radial Lead Aluminum Electrolytic Capacitors"
                 },
                 {
                     "series":"XH",
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/special-app/161-162-163-XH.pdf",
                     "image": "../assets/product/special-app/xh.png",
-                    "alt": "XH Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "Special Series Radial Lead Aluminum Electrolytic Capacitors"
                 },
                 {
                     "series":"MH",
                     "name": "Screw Terminal Type Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/special-app/168-169-MH.pdf",
                     "image": "../assets/product/special-app/mh.png",
-                    "alt": "MH Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "Special Series Radial Lead Aluminum Electrolytic Capacitors"
                 }
             ];
 

@@ -1,5 +1,5 @@
 <div ng-controller="SearchController">
-     <div class="product-search" ng-init="initFirst()">
+     <div class="product-search">
     <div class="row text-center search-area">
     <div class="col-xs-12">
         <h1>Product Finder</h1>
@@ -7,7 +7,7 @@
         <form ng-submit="submit()" method="post" class="form-inline search-form">
             <div class="form-group">
                 <div class="input-group">
-                    <input ng-model="searchText" type="text" class="form-control search-bar" id="search" placeholder="I'm looking for...." required>
+                    <input ng-model="searchText" type="text" class="form-control search-bar" id="search" placeholder="Please enter series or part number here" required>
                     <button type="submit" class="btn btn-lg">GO</button>
                 </div>
             </div>
@@ -17,8 +17,7 @@
 </div>
 <div class="search-results">
     <div class="row text-center">
-        <div class="row">
-                    <div ng-repeat="product in productList | filter: searchText" class="col-sm-3 col-md-4">
+                    <div ng-repeat="product in productList" class="col-sm-3 col-md-4">
                         <div class="thumbnail">
                         <img ng-src="{{product.image}}" alt="{{product.alt}}">
                     <div class="caption">
@@ -29,7 +28,6 @@
                     </div>
                 </div>
                     </div>
-        </div>
     </div>
 </div>
 </div>
