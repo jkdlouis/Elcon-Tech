@@ -1,4 +1,4 @@
-<div>
+<div ng-controller="ContactController">
     <div class="row text-center contact-cover">
         <div class="col-xs-12">
          <h1>Contact Us</h1>
@@ -7,31 +7,32 @@
     </div>
     <div class="row contact-form">
         <div class="col-xs-4 col-xs-offset-1">
-            <form>
+            <form name="contactForm" data-ng-submit=""
+            method="post" role="form">
                 <div class="form-group">
                     <label for="fullName">Full Name</label>
-                    <input type="text" class="form-control" id="fullName" required>
+                    <input type="text" class="form-control" id="fullName" data-ng-model="contactName" required/>
                 </div>
                 <div class="form-group">
                     <label for="email">Email address</label>
-                    <input type="email" class="form-control" id="email" required>
+                    <input type="email" name="name" class="form-control" id="email" data-ng-minlength="3" data-ng-model="email" required/>
                 </div>
                 <div class="form-group">
                     <label for="phoneNumber">Phone Number</label>
-                    <input type="number" class="form-control" id="phoneNumber" required>
+                    <input type="number" name="email" class="form-control" data-ng-minlength="3" id="phoneNumber" data-ng-model="phoneNumber" required/>
                 </div>
                 <div class="form-group">
                     <label for="message">Message</label>
-                    <textarea name="message" class="form-control" id="message" cols="30" rows="10"></textarea>
+                    <textarea name="message" class="form-control" id="message" cols="30" rows="10" data-ng-model="message"></textarea>
                 </div>
-                <button type="submit" class="btn btn-lg send-btn">Send</button>
+                <button type="submit" class="btn btn-lg send-btn" value="send">Send</button>
             </form>
         </div>
         <div class="col-xs-6">
             <div class="row">
                 <div class="col-xs-6">
                     <address>
-                        <p>Elcon Electronics Technology (Shaoguan) Co., Ltd.</p>
+                        <p><strong>Elcon Electronics Technology (Shaoguan) Co., Ltd.</strong></p>
                         <p>Tel：0751-6830668</p>
                         <p>Fax：0751-6830668</p>
                         <p>Web：www.elconcap.com</p>
@@ -41,28 +42,28 @@
                 </div>
                 <div class="col-xs-6">
                     <address>
-                        <p>Shenzhen pri-tronics Electronic Technology Co. Ltd.</p>
-                        <p>Tel:0755-26556201</p>
-                        <p>FAX: 0755-26556250</p>
+                        <p><strong>Shenzhen pri-tronics Electronic Technology Co. Ltd.</strong></p>
+                        <p>Tel : 0755-26556201</p>
+                        <p>FAX : 0755-26556250</p>
                         <p>Web：www.elconcap.com</p>
-                        <p>E-mail：info@pri-tronics.com</p>
-                        <p>Add：Room302, Building33, ShaHe Industrial Park, BaiShiZhou, Nanshan,Shenzhen, Zip 518000 China</p>
+                        <p>E-mail：<a href="mailto:#info@pri-tronics.com">info@pri-tronics.com</a></p>
+                        <p>Add：Room 302, Building 33, ShaHe Industrial Park, BaiShiZhou, Nanshan,Shenzhen, Zip 518000 China</p>
                     </address>
                 </div>
             </div>
-            <div class="row marginTop-10">
+            <div class="row">
                 <div class="col-xs-6">
                     <address>
-                        <p>Dongguan Maokang Electronics Co., Ltd.</p>
-                        <p>Tel:0 769-82931619</p>
-                        <p>Fax: 0769-89032491</p>
+                        <p><strong>Dongguan Maokang Electronics Co., Ltd.</strong></p>
+                        <p>Tel : 0 769-82931619</p>
+                        <p>Fax : 0769-89032491</p>
                         <p>E-mail：<a href="mailto:#jinguofu.2008@163.com">jinguofu.2008@163.com</a></p>
                         <p>Add：2 A, Tai Po Garden, Xinghuacun A5, Xiegang town, Dongguan, Zip 523590 China</p>
                     </address>
                 </div>
                 <div class="col-xs-6">
                     <address>
-                    <p>GTC Technologies Corporation</p>
+                    <p><strong>GTC Technologies Corporation</strong></p>
                     <p>Tel：886-2-25147896</p>
                     <p>Fax：886-2-25147893</p>
                     <p>E-mail：<a href="mailto:#sales@gtc-tech.com">sales@gtc-tech.com</a></p>

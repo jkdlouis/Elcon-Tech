@@ -66,16 +66,7 @@ nav {
     position: relative;
   }
 
-  h1:before {
-    background-color: $main-green;
-    content: "";
-    position: absolute;
-    left: 35%;
-    top: 20px;
-    height: 3px;
-    width: 30%;
-    z-index: 1;
-  }
+
 }
 .carousel {
   width: 100%;
@@ -99,6 +90,16 @@ nav {
 //about
 .about {
   padding: 30px;
+  h1:before {
+    background-color: $main-green;
+    content: "";
+    position: absolute;
+    left: 35%;
+    top: 20px;
+    height: 2px;
+    width: 30%;
+    z-index: 1;
+  }
   span {
     background-color: white;
     padding: 0 20px;
@@ -118,6 +119,16 @@ nav {
   height: 65rem;
   h1 {
     margin-bottom: 100px;
+  }
+  h1:before {
+    background-color: $main-green;
+    content: "";
+    position: absolute;
+    left: 35%;
+    top: 20px;
+    height: 1px;
+    width: 30%;
+    z-index: 1;
   }
   h1 span {
     background-color: $light-gray;
@@ -235,6 +246,16 @@ li.up {
 .certificate {
   padding: 30px;
   height: 85rem;
+  h1:before {
+    background-color: $main-green;
+    content: "";
+    position: absolute;
+    left: 35%;
+    top: 20px;
+    height: 1px;
+    width: 30%;
+    z-index: 1;
+  }
   span {
     background-color: white;
     padding: 0 20px;

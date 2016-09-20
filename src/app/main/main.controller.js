@@ -8,28 +8,31 @@
   /** @ngInject */
   function MainController($scope, $timeout, webDevTec, toastr) {
     // carousel
-    $scope.myInterval = 3000;
-    $scope.noWrapSlides = true;
-    $scope.activeSlide = 0;
-    $scope.slides = [
+    var vm = $scope;
+    vm.myInterval = 3000;
+    vm.noWrapSlides = true;
+    vm.activeSlide = 0;
+    vm.slides = [
         {
-      image: 'assets/images/shenzhen-city1.jpg'
+      image: 'assets/images/shenzhen-city1.jpg',
+          alt: ''
     },
       {
-        image: 'assets/images/shenzhen-city3.jpg'
+        image: 'assets/images/shenzhen-city3.jpg',
+        alt: ''
       },
       {
-        image: 'assets/images/professionals.jpg'
+        image: 'assets/images/professionals.jpg',
+        alt: ''
       }
     ];
 
     // certificate section
-    $scope.certificate = {
+    vm.certificate = {
       name: "Elcon Certificates",
       image: "assets/images/certificates.jpg"
     };
 
-    var vm = this;
     vm.awesomeThings = [];
     vm.classAnimation = '';
     vm.creationDate = 1472602141674;
