@@ -14,6 +14,10 @@
 }
 .career-body {
   padding: 30px;
+  h1 {
+    margin: 40px auto;
+    color: $dark-gray;
+  }
   h4 {
     line-height: 1.5em;
     color: $dark-gray;
@@ -33,14 +37,25 @@
     background-size: 25rem;
     height: 25rem;
   }
-  .overlay {
-    background-color: rgba(0, 0, 0, 0.3);
-    height: 100%;
-    width: 100%;
-    color: white;
-    top: 0;
-    transition-property: all;
-    transition-duration: 1s;
-  }
 }
 
+.apply-today-section {
+  padding: 30px;
+  background-color: #FFB400;
+  color: white;
+  h1 {
+    color: white;
+  }
+  .apply-btn {
+    background-color: white;
+    border: 1px solid $light-gray;
+    margin-top: 20px;
+    padding: 10px 20px;
+    width: 25rem;
+    color: $dark-gray;
+    font-size: 16px;
+  }
+  h3 {
+    line-height: 1.5em;
+  }
+}
