@@ -46,13 +46,14 @@ a:hover, a:focus {
   cursor: pointer;
 }
 
+.active {
+  background-color: $dark-gray;
+}
+
 nav {
   font-size: 2em;
   margin: 0;
-  border: 1px solid white;
 }
-
-
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -65,8 +66,6 @@ nav {
     margin: 30px 0;
     position: relative;
   }
-
-
 }
 .carousel {
   width: 100%;

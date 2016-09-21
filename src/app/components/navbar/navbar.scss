@@ -46,6 +46,7 @@ ul > li.language {
 .navbar-nav {
   width: 100%;
   text-align: center;
+  height: 50px;
   > li {
     float: none;
     display: inline-block;
@@ -65,4 +66,5 @@ ul > li.language {
 
 .navbar-inverse .navbar-nav > .active > a {
   background-color: $dark-gray;
+  height: 100%;
 }
