@@ -1,5 +1,5 @@
 .career-cover {
-  background: url("../assets/images/join-the-team.jpg") center no-repeat;
+  background: url("../assets/images/join-the-team-dark.jpg") center no-repeat;
   background-size: 100%;
   top:0;
   color: white;
@@ -54,6 +54,9 @@
     width: 25rem;
     color: $dark-gray;
     font-size: 16px;
+  }
+  .apply-btn:hover {
+    border: 1px solid $dark-gray !important;
   }
   h3 {
     line-height: 1.5em;
