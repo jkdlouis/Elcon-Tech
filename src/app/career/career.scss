@@ -14,8 +14,25 @@
 .career-body {
   padding: 30px;
   h1 {
-    margin: 40px auto;
+    margin: 30px 0;
+    position: relative;
     color: $dark-gray;
+  }
+  h1.title-line:before {
+    background-color: $main-green;
+    content: "";
+    position: absolute;
+    left: 35%;
+    top: 20px;
+    height: 1px;
+    width: 30%;
+    z-index: 1;
+  }
+  span {
+    background-color: white;
+    padding: 0 20px;
+    z-index: 2;
+    position: relative;
   }
   h4 {
     line-height: 1.5em;

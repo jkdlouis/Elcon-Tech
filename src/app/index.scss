@@ -27,55 +27,58 @@ body {
   line-height: 1.25em;
 }
 
-.container-fluid {
-  padding: 0;
-  margin: 0;
-}
+//.container-fluid {
+//  padding: 0;
+//  margin: 0;
+//}
 
 h1 {
   color: $dark-gray;
 }
 
-a {
-  color: black;
+h1.title-line:before {
+  background-color: $main-green;
+  content: "";
+  position: absolute;
+  left: 35%;
+  top: 20px;
+  height: 2px;
+  width: 30%;
+  z-index: 1;
+
+  a {
+    color: black;
+  }
+
+  a:hover, a:focus {
+    color: #2b51ce;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .active {
+    background-color: $dark-gray;
+  }
+
+  nav {
+    font-size: 2em;
+    margin: 0;
+  }
+  .browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+  }
+
 }
 
-a:hover, a:focus {
-  color: $main-green;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.active {
-  background-color: $dark-gray;
-}
-
-nav {
-  font-size: 2em;
-  margin: 0;
-}
-.browsehappy {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
+//home
 
 .home {
   h1 {
     margin: 30px 0;
     position: relative;
-  }
-
-  h1:before {
-    background-color: $main-green;
-    content: "";
-    position: absolute;
-    left: 35%;
-    top: 20px;
-    height: 1px;
-    width: 30%;
-    z-index: 1;
   }
 }
 .carousel {
@@ -100,7 +103,7 @@ nav {
 //about
 .about {
   padding: 30px;
-  h1:before {
+  h1.title-line:before {
     background-color: $main-green;
     content: "";
     position: absolute;
@@ -110,18 +113,20 @@ nav {
     width: 30%;
     z-index: 1;
   }
-  span {
-    background-color: white;
-    padding: 0 20px;
-    z-index:2;
-    position: relative;
-  }
-  h4 {
-    line-height: 2em;
-    color: #999999;
+    span {
+      background-color: white;
+      padding: 0 20px;
+      z-index: 2;
+      position: relative;
+    }
+    h4 {
+      line-height: 2em;
+      color: #999999;
+      font-size: 2em;
+    }
+
   }
 
-}
 //history
 .history {
   background-color: $light-gray;
@@ -130,20 +135,20 @@ nav {
   h1 {
     margin-bottom: 100px;
   }
-  h1:before {
-    background-color: $main-green;
-    content: "";
-    position: absolute;
-    left: 35%;
-    top: 20px;
-    height: 1px;
-    width: 30%;
-    z-index: 1;
-  }
+  //h1:before {
+  //  background-color: $main-green;
+  //  content: "";
+  //  position: absolute;
+  //  left: 35%;
+  //  top: 20px;
+  //  height: 1px;
+  //  width: 30%;
+  //  z-index: 1;
+  //}
   h1 span {
     background-color: $light-gray;
     padding: 0 20px;
-    z-index:2;
+    z-index: 2;
     position: relative;
   }
   ul {
@@ -180,7 +185,7 @@ span.circle {
   position: absolute;
 }
 .date {
- font-size: 1.5em;
+  font-size: 1.5em;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -232,7 +237,6 @@ li.down {
   }
 }
 
-
 li.up {
   .content {
     top: 0;
@@ -256,20 +260,11 @@ li.up {
 .certificate {
   padding: 30px;
   height: 85rem;
-  h1:before {
-    background-color: $main-green;
-    content: "";
-    position: absolute;
-    left: 35%;
-    top: 20px;
-    height: 1px;
-    width: 30%;
-    z-index: 1;
-  }
+
   span {
     background-color: white;
     padding: 0 20px;
-    z-index:2;
+    z-index: 2;
     position: relative;
   }
   h4 {
