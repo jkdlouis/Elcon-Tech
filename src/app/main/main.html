@@ -1,19 +1,13 @@
 <div ng-controller="MainController" class="home">
-    <div class="row text-center">
-        <div class="col-xs-12">
-            <div class="carousel">
+            <div class="carousel text-center">
                     <uib-carousel interval="myInterval" active="activeSlide">
                         <uib-slide ng-repeat="slide in slides" index="$index">
-                            <img ng-src="{{slide.image}}?{{$index}}" style="margin:auto;" alt="{{slide.alt}}">
+                            <img ng-src="{{slide.image}}?{{$index}}" alt="{{slide.alt}}">
                             <div class="carousel-caption">
                             </div>
                         </uib-slide>
                     </uib-carousel>
             </div>
-
-</div>
-    </div>
-
     <!--about section-->
     <div class="about">
         <div class="row">
