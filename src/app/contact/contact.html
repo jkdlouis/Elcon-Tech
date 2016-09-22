@@ -6,12 +6,16 @@
         </div>
     </div>
     <div class="row contact-form">
-        <div class="col-xs-4 col-xs-offset-1">
+        <div class="hidden-xs hidden-sm col-xs-4 col-xs-offset-1">
             <form name="contactForm" data-ng-submit=""
             method="post" role="form">
                 <div class="form-group">
                     <label for="fullName">Full Name</label>
                     <input type="text" class="form-control" id="fullName" data-ng-model="contactName" required/>
+                </div>
+                <div class="form-group">
+                    <label for="companyName">Company Name</label>
+                    <input type="text" class="form-control" id="companyName" data-ng-model="companyName" required/>
                 </div>
                 <div class="form-group">
                     <label for="email">Email address</label>
@@ -28,9 +32,9 @@
                 <button type="submit" class="btn btn-lg send-btn" value="send">Send</button>
             </form>
         </div>
-        <div class="col-xs-6">
+        <div class="col-xs-12 col-md-6">
             <div class="row">
-                <div class="col-xs-6">
+                <div class="col-xs-12 col-md-6">
                     <address>
                         <p><strong>Elcon Electronics Technology (Shaoguan) Co., Ltd.</strong></p>
                         <p>Tel：0751-6830668</p>
@@ -40,7 +44,7 @@
                         <p>Add：No. 1-1, Yingbin Road, Ruyuan Yaozu Autonomous County,Shaoguan, Zip 512000 China</p>
                     </address>
                 </div>
-                <div class="col-xs-6">
+                <div class="col-xs-12 col-md-6">
                     <address>
                         <p><strong>Shenzhen pri-tronics Electronic Technology Co. Ltd.</strong></p>
                         <p>Tel : 0755-26556201</p>
@@ -52,7 +56,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-xs-6">
+                <div class="col-xs-12 col-md-6">
                     <address>
                         <p><strong>Dongguan Maokang Electronics Co., Ltd.</strong></p>
                         <p>Tel : 0 769-82931619</p>
@@ -61,7 +65,7 @@
                         <p>Add：2 A, Tai Po Garden, Xinghuacun A5, Xiegang town, Dongguan, Zip 523590 China</p>
                     </address>
                 </div>
-                <div class="col-xs-6">
+                <div class="col-xs-12 col-md-6">
                     <address>
                     <p><strong>GTC Technologies Corporation</strong></p>
                     <p>Tel：886-2-25147896</p>
