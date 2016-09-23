@@ -75,12 +75,12 @@ h1.title-line:before {
   }
 }
 .carousel {
-  width: 100%;
-  height: 60rem;
   overflow: hidden;
+  width: 100%;
+  height: 100%;
   img {
-    width: 100%;
-    position: center;
+    max-width: 100%;
+    max-height: 100%;
   }
   .left.carousel-control, .glyphicon.glyphicon-chevron-left,
   .glyphicon.glyphicon-chevron-right, .right.carousel-control {
@@ -94,7 +94,7 @@ h1.title-line:before {
 }
 //about
 .about {
-  padding: 30px;
+  padding: 3rem;
   h1.title-line:before {
     background-color: $main-green;
     content: "";
@@ -122,7 +122,7 @@ h1.title-line:before {
 //history
 .history {
   background-color: $light-gray;
-  padding: 30px;
+  padding: 3rem;
   height: 65rem;
   h1 {
     margin-bottom: 100px;
@@ -240,7 +240,7 @@ li.up {
 }
 
 .certificate {
-  padding: 30px;
+  padding: 3rem;
 
   span {
     background-color: white;
@@ -251,6 +251,19 @@ li.up {
   h4 {
     margin-bottom: 50px;
     color: $text-color;
+  }
+}
+
+@media (min-width:300px) and (max-width:450px) and (orientation: portrait){
+  .about, .certificate{
+    padding: 10px;
+  }
+
+  h1, h2, h3 {
+    font-size: 2em !important;
+  }
+  h4, h5, h6 {
+    font-style: 1em !important;
   }
 }
 

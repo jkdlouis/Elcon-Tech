@@ -29,3 +29,13 @@
     color: #018B3E;
   }
 }
+
+
+@media (min-width:300px) and (max-width:450px) and (orientation: portrait){
+     .footer {
+       h1, h4, h5 {
+         font-size: 1em;
+       }
+  }
+}
+
