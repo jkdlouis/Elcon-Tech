@@ -29,11 +29,6 @@ body {
   color: black;
 }
 
-//.container-fluid {
-//  padding: 0;
-//  margin: 0;
-//}
-
 h1, h2 {
   color: $dark-gray;
   letter-spacing: 3px;
@@ -263,7 +258,10 @@ li.up {
     font-size: 2em !important;
   }
   h4, h5, h6 {
-    font-style: 1em !important;
+    font-size: 1em !important;
+  }
+  ol.carousel-indicators {
+    display: none;
   }
 }
 

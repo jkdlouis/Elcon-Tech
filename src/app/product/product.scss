@@ -52,25 +52,23 @@
   }
 }
 .product-category {
-  margin: 0 -15px;
   padding: 30px;
   background-color: $light-gray;
 
   .product {
     margin: 10px;
-    height: 230px;
+    height: 300px;
   }
   .solid-chip {
-    background: url("../assets/images/product/solid-chip.jpg") no-repeat center;
+    background: url("../assets/images/product/solid-chip.png") no-repeat center white;
+    -webkit-background-size: 100%;
     background-size: 100%;
     height: 100%;
     position: relative;
     border: 1px solid #ddd;
-    margin: 10px;
-    height: 230px;
   }
   .solid-lead {
-    background: url("../assets/images/product/solid-lead.jpg") no-repeat center;
+    background: url("../assets/images/product/solid-lead.png") no-repeat center white;
     -webkit-background-size: 100%;
     background-size: 100%;
     height: 100%;
@@ -78,7 +76,7 @@
     border: 1px solid #ddd;
   }
   .chip-type {
-    background: url("../assets/images/product/chip.jpg") no-repeat center;
+    background: url("../assets/images/product/chip.png") no-repeat center white;
     -webkit-background-size: 100%;
     background-size: 100%;
     height: 100%;
@@ -86,7 +84,7 @@
     border: 1px solid #ddd;
   }
   .miniature {
-    background: url("../assets/images/product/miniature.jpg") no-repeat center;
+    background: url("../assets/images/product/miniature.png") no-repeat center white;
     -webkit-background-size: 100%;
     background-size: 100%;
     height: 100%;
@@ -94,7 +92,7 @@
     border: 1px solid #ddd;
   }
   .high-rip {
-    background: url("../assets/images/product/high-rip.jpg") no-repeat center;
+    background: url("../assets/images/product/high-rip.png") no-repeat center white;
     -webkit-background-size: 100%;
     background-size: 100%;
     height: 100%;
@@ -102,7 +100,7 @@
     border: 1px solid #ddd;
   }
   .snap-in {
-    background: url("../assets/images/product/snap-in.jpg") no-repeat center;
+    background: url("../assets/images/product/snap-in.png") no-repeat center white;
     -webkit-background-size: 100%;
     background-size: 100%;
     height: 100%;
@@ -110,7 +108,7 @@
     border: 1px solid #ddd;
   }
   .special-app {
-    background: url("../assets/images/product/special-app.jpg") no-repeat center;
+    background: url("../assets/images/product/special-app.png") no-repeat center white;
     -webkit-background-size: 100%;
     background-size: 100%;
     height: 100%;
@@ -148,6 +146,10 @@
       h1 {
         font-size: 2.5em;
       }
-
     }
+  .product-category {
+    .product {
+      height: 180px;
+    }
+  }
 }
