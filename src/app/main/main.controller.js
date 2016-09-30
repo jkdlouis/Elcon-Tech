@@ -15,15 +15,24 @@
     vm.slides = [
         {
       image: 'assets/images/shenzhen-city1.jpg',
-          alt: ''
+          alt: '',
+          text: 'Elcon Technology Only Offers High Quality Electric Capacitors',
+          link: '#/product',
+          button: 'View Product'
     },
       {
         image: 'assets/images/shenzhen-city3.jpg',
-        alt: ''
+        alt: '',
+        text: 'Join Us At Elcon, We offer exciting career opportunity for you',
+        link: '#/career',
+        button: 'Join Us'
       },
       {
         image: 'assets/images/professionals.jpg',
-        alt: ''
+        alt: '',
+        text: 'Our Professional Team Is Here To Help You',
+        link: '#/contact',
+        button: 'Contact Us'
       }
     ];
 
