@@ -144,16 +144,22 @@
 and (orientation: portrait) {
   .product-cover {
     padding: 0!important;
-    background-size: 100%;
-    height: 8.3rem;
+    height: 110px;
     h1 {
       font-size: 2em;
-      margin-top: 30px;
+      margin-top: 45px;
     }
   }
   .product-category {
     .product {
       height: 180px;
+    }
+    h3 {
+      padding: 5px;
+      font-size: 14px!important;
+    }
+    h3.title {
+      height: 25px;
     }
   }
 }
