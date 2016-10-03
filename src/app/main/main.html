@@ -1,6 +1,6 @@
 <div ng-controller="MainController" class="home">
     <div class="row">
-                    <uib-carousel class="carousel carousel-fade" interval="myInterval" active="activeSlide">
+                    <uib-carousel class="carousel" interval="myInterval" active="activeSlide">
                         <uib-slide ng-repeat="slide in slides" index="$index">
                             <div class="text-box hidden-xs hidden-sm">{{slide.text}} <br>
                                 <a href="{{slide.link}}">

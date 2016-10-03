@@ -76,16 +76,16 @@ h1.title-line:before {
   height: 800px !important;
   position: relative;
   z-index: 1;
-  .item {
-    opacity: 0.5;
-    -webkit-transition-property: opacity;
-    -moz-transition-property: opacity;
-    -o-transition-property: opacity;
-    transition-property: opacity;
-  }
-  .active {
-    opacity: 3;
-  }
+  //.item {
+  //  opacity: 0.5;
+  //  -webkit-transition-property: opacity;
+  //  -moz-transition-property: opacity;
+  //  -o-transition-property: opacity;
+  //  transition-property: opacity;
+  //}
+  //.active {
+  //  opacity: 3;
+  //}
   img {
     margin: 0 auto;
     width: 100%;
@@ -293,8 +293,10 @@ li.up {
   }
 }
 
-@media (min-width:300px) and (max-width:450px) and (orientation: portrait){
-  .about, .certificate{
+/* Portrait */
+
+@media (min-width:300px) and (max-width:450px) and (orientation: portrait) {
+  .about, .certificate {
     padding: 10px;
   }
 
@@ -307,11 +309,6 @@ li.up {
   ol.carousel-indicators {
     display: none;
   }
-}
-
-/* Portrait */
-@media screen and (min-device-width: 300px) and (max-device-width: 450px) and (-webkit-device-pixel-ratio: 2)
-and (orientation: portrait) {
   h1.title-line:before {
     top: 10px;
     width: 80%;
@@ -321,7 +318,7 @@ and (orientation: portrait) {
     height: 200px !important;
   }
   .about {
-    h1.title-line:before{
+    h1.title-line:before {
       top: 10px;
       width: 80%;
       left: 10%;
@@ -330,25 +327,8 @@ and (orientation: portrait) {
   }
 }
 
-@media screen and (min-device-width: 300px) and (max-device-width: 450px) and (-webkit-device-pixel-ratio: 3)
-and (orientation: portrait) {
-  h1.title-line:before {
-    top: 10px;
-    width: 80%;
-    left: 10%;
-  }
-  .carousel {
-    height: 200px !important;
-  }
-  .about {
-    h1.title-line:before{
-      top: 10px;
-      width: 80%;
-      left: 10%;
-      height: 1px;
-    }
-  }
-}
+
+
 /**
  *  Do not remove the comments below. It's the markers used by gulp-inject to inject
  *  all your sass files automatically
