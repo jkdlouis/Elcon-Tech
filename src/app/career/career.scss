@@ -87,4 +87,12 @@
          margin-top: 5rem;
        }
      }
+     .career-body {
+       h1.title-line:before{
+         top: 10px;
+         width: 100%;
+         left: 0;
+         height: 1px;
+       }
+     }
 }

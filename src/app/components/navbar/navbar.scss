@@ -62,3 +62,25 @@ ul > li.language {
   background-color: $dark-gray;
   height: 100%;
 }
+
+@media screen and (min-device-width: 300px) and (max-device-width: 450px) and (-webkit-device-pixel-ratio: 2)
+and (orientation: portrait) {
+  .phone {
+    text-align: left;
+  }
+  .email {
+    text-align: right;
+  }
+
+}
+
+@media screen and (min-device-width: 300px) and (max-device-width: 450px) and (-webkit-device-pixel-ratio: 3)
+and (orientation: portrait) {
+  .phone {
+    text-align: left;
+  }
+  .email {
+    text-align: right;
+  }
+
+}

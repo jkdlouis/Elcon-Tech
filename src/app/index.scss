@@ -309,6 +309,46 @@ li.up {
   }
 }
 
+/* Portrait */
+@media screen and (min-device-width: 300px) and (max-device-width: 450px) and (-webkit-device-pixel-ratio: 2)
+and (orientation: portrait) {
+  h1.title-line:before {
+    top: 10px;
+    width: 80%;
+    left: 10%;
+  }
+  .carousel {
+    height: 200px !important;
+  }
+  .about {
+    h1.title-line:before{
+      top: 10px;
+      width: 80%;
+      left: 10%;
+      height: 1px;
+    }
+  }
+}
+
+@media screen and (min-device-width: 300px) and (max-device-width: 450px) and (-webkit-device-pixel-ratio: 3)
+and (orientation: portrait) {
+  h1.title-line:before {
+    top: 10px;
+    width: 80%;
+    left: 10%;
+  }
+  .carousel {
+    height: 200px !important;
+  }
+  .about {
+    h1.title-line:before{
+      top: 10px;
+      width: 80%;
+      left: 10%;
+      height: 1px;
+    }
+  }
+}
 /**
  *  Do not remove the comments below. It's the markers used by gulp-inject to inject
  *  all your sass files automatically
