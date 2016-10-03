@@ -7,5 +7,6 @@
         $scope.isActive = function(viewLocation) {
             return viewLocation === $location.path();
         };
+        $scope.isCollapsed = true;
     }
 })();

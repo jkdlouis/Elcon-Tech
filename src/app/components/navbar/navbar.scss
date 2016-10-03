@@ -63,7 +63,7 @@ ul > li.language {
   height: 100%;
 }
 
-@media screen and (min-device-width: 300px) and (max-device-width: 450px) and (-webkit-device-pixel-ratio: 2)
+@media screen and (min-device-width: 300px) and (max-device-width: 450px)
 and (orientation: portrait) {
   .phone {
     text-align: left;
@@ -72,15 +72,22 @@ and (orientation: portrait) {
     text-align: right;
   }
 
-}
-
-@media screen and (min-device-width: 300px) and (max-device-width: 450px) and (-webkit-device-pixel-ratio: 3)
-and (orientation: portrait) {
-  .phone {
-    text-align: left;
+  ul.nav.navbar-nav {
+   height: 250px;
+    width: 107%;
+    > li {
+      width: 100%;
+      margin: 10px 0;
+    }
   }
-  .email {
-    text-align: right;
+  .navbar-inverse .navbar-nav > li > a {
+    width: 100%;
   }
 
+  .navbar-inverse .navbar-nav > .active > a {
+    width: 100%;
+  }
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    padding: 0;
+  }
 }
