@@ -56,7 +56,7 @@
   background-color: $light-gray;
 
   .product {
-    margin: 10px;
+    margin: 20px 10px;
     height: 300px;
   }
   .solid-chip {
@@ -153,6 +153,7 @@ and (orientation: portrait) {
   .product-category {
     .product {
       height: 180px;
+      margin: 10px;
     }
     h3 {
       padding: 5px;
