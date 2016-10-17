@@ -24,16 +24,12 @@
 
         .state('career', {
             url: '/career',
-            templateUrl: 'app/career/career.html',
-            controller: 'CareerController',
-            controllerAs: 'career'
+            templateUrl: 'app/career/career.html'
         })
 
         .state('contact', {
             url: '/contact',
-            templateUrl: 'app/contact/contact.html',
-            controller: 'ContactController',
-            controllerAs: 'contact'
+            templateUrl: 'app/contact/contact.html'
         })
 
         .state('product-finder', {

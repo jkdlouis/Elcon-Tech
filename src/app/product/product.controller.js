@@ -3,7 +3,7 @@
         .module('augularWorkplace')
         .controller('ProductController', ProductController);
 
-    function ProductController ($scope){
+    function ProductController (){
         var vm = this;
         vm.solidChip = false;
         vm.solidLead = false;

@@ -3,9 +3,9 @@
         .module('augularWorkplace')
         .controller('SearchController', SearchController);
 
-    function SearchController ($scope){
-
-        $scope.productList =
+    function SearchController (){
+        var vm = this;
+        vm.productList =
         [
                 {
                     // solid-chip
@@ -378,11 +378,5 @@
                     "alt": "Special Series Radial Lead Aluminum Electrolytic Capacitors"
                 }
             ];
-
-
-        $scope.submit = function() {
-            $scope.productList = productList;
-        };
-
     }
 })();

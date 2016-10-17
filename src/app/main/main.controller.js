@@ -6,9 +6,9 @@
     .controller('MainController', MainController);
 
   /** @ngInject */
-  function MainController($scope, $timeout, webDevTec, toastr) {
+  function MainController($timeout, webDevTec, toastr) {
     // carousel
-    var vm = $scope;
+    var vm = this;
     vm.myInterval = 3000;
     vm.noWrapSlides = true;
     vm.activeSlide = 0;
