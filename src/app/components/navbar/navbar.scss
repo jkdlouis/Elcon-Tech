@@ -63,6 +63,8 @@ ul > li.language {
   height: 100%;
 }
 
+//portrait
+
 @media screen and (min-device-width: 300px) and (max-device-width: 450px)
 and (orientation: portrait) {
   .phone {
@@ -91,3 +93,4 @@ and (orientation: portrait) {
     padding: 0;
   }
 }
+

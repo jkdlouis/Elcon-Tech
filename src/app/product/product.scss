@@ -140,6 +140,8 @@
   }
 }
 
+//portrait
+
 @media screen and (min-device-width: 300px) and (max-device-width: 450px)
 and (orientation: portrait) {
   .product-cover {
@@ -165,3 +167,25 @@ and (orientation: portrait) {
   }
 }
 
+//landscape
+
+@media (min-width:550px) and (max-width:750px) and (orientation: landscape) {
+  .product-cover {
+    height: 210px;
+    h1 {
+      margin-top: -1rem;
+    }
+  }
+  .product-category {
+    .product {
+      margin: 10px;
+    }
+    h3 {
+      padding: 16px;
+      font-size: 14px!important;
+    }
+    h3.title {
+      height: 50px;
+    }
+  }
+}

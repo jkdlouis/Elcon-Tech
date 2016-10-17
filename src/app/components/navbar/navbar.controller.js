@@ -4,9 +4,10 @@
         .controller('NavController', NavController);
 
     function NavController ($scope, $location){
-        $scope.isActive = function(viewLocation) {
+        var vm = this;
+        vm.isActive = function(viewLocation) {
             return viewLocation === $location.path();
         };
-        $scope.isCollapsed = true;
+        vm.isCollapsed = true;
     }
 })();
