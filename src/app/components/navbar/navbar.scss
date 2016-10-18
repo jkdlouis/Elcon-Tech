@@ -12,6 +12,9 @@
   ul > li {
     margin-right: 30px;
   }
+  h4 {
+    font-size: 1em;
+  }
 }
 
 .contact-header .fa.fa-envelope, .contact-header .fa.fa-phone {
@@ -23,10 +26,11 @@
 
 .language-links {
   margin-right: 1%;
+
 }
 
 ul > li.language {
-  font-size: 1.5em;
+  font-size: 1em;
   margin-right: 20px;
   margin-top: 70px;
 }
@@ -51,7 +55,7 @@ ul > li.language {
 .navbar-inverse .navbar-nav > li > a {
   color: white;
   background-color: $main-green;
-  font-size: 18px;
+  font-size: 1.5em;
   letter-spacing: 1px;
 }
 .navbar-inverse .navbar-nav > li > a:hover {
@@ -93,4 +97,3 @@ and (orientation: portrait) {
     padding: 0;
   }
 }
-

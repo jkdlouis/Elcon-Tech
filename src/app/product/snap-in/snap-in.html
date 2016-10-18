@@ -1,11 +1,11 @@
-<div ng-controller="SearchController">
+<div ng-controller="SearchController as search">
         <div class="row text-center all-product-header">
             <div class="col-xs-12">
                 <h1>Snap-In Terminal Series</h1>
             </div>
         </div>
         <div class="row text-center search-results">
-            <div ng-repeat="product in productList | filter: {name: 'Snap-in Terminal Type Aluminum Electrolytic Capacitors'}" class="col-sm-3 col-md-4">
+            <div ng-repeat="product in search.productList | filter: {name: 'Snap-in Terminal Type Aluminum Electrolytic Capacitors'}" class="col-sm-3 col-md-4">
                 <div class="thumbnail">
                     <img ng-src="{{product.image}}" alt="{{product.alt}}">
                     <div class="caption">

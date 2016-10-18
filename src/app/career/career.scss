@@ -5,7 +5,7 @@
   height: 40rem;
   h1 {
     margin-bottom: 20px;
-    font-size: 5em;
+    font-size: 4em;
     color: white;
     top: 0;
     margin-top: 14rem;
@@ -14,7 +14,7 @@
 .career-body {
   padding: 3rem;
   h1 {
-    margin: 20px 0;
+    margin-bottom: 50px;
     position: relative;
     color: $dark-gray;
   }
@@ -22,10 +22,10 @@
     background-color: $main-green;
     content: "";
     position: absolute;
-    left: 32.5%;
+    left: 27.5%;
     top: 20px;
     height: 1px;
-    width: 35%;
+    width: 45%;
     z-index: 1;
   }
   span {
@@ -37,6 +37,10 @@
   h2, h4 {
     line-height: 1.5em;
     color: $text-color;
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 2.5em;
   }
   .create {
     background: url("../assets/images/icons/team.png") center no-repeat;
@@ -61,6 +65,10 @@
   color: white;
   h1 {
     color: white;
+    font-size: 3em;
+  }
+  h3 {
+    font-size: 1.5em;
   }
   .apply-btn {
     background-color: white;
@@ -116,4 +124,3 @@
     }
   }
 }
-
