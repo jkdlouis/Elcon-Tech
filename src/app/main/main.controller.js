@@ -13,20 +13,20 @@
     vm.noWrapSlides = true;
     vm.activeSlide = 0;
     vm.slides = [
-        {
-      image: 'assets/images/shenzhen-city1.jpg',
-          alt: '',
-          text: 'Elcon Technology Only Offers High Quality Electric Capacitors',
-          link: '#/product',
-          button: 'View Product'
-    },
       {
         image: 'assets/images/shenzhen-city3.jpg',
         alt: '',
-        text: 'Join Us At Elcon, We offer exciting career opportunity for you',
-        link: '#/career',
-        button: 'Join Us'
+        text: 'Welcome To Elcon, Please Let Us Introduce Ourselves',
+        link: '#/about',
+        button: 'About Us'
       },
+        {
+      image: 'assets/images/shenzhen-city1.jpg',
+          alt: '',
+          text: 'Elcon Technology Only Offers High Quality Electrolytic Capacitors',
+          link: '#/product',
+          button: 'View Product'
+    },
       {
         image: 'assets/images/professionals.jpg',
         alt: '',

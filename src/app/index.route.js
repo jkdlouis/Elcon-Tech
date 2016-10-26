@@ -15,6 +15,13 @@
         controllerAs: 'main'
       })
 
+        .state('about', {
+            url: '/about',
+            templateUrl: 'app/about/about.html',
+            controller: 'AboutController',
+            controllerAs: 'about'
+        })
+
         .state('product', {
             url: '/product',
             templateUrl: 'app/product/product.html',
@@ -22,10 +29,10 @@
             controllerAs: 'product'
         })
 
-        .state('career', {
-            url: '/career',
-            templateUrl: 'app/career/career.html'
-        })
+        // .state('career', {
+        //     url: '/career',
+        //     templateUrl: 'app/career/career.html'
+        // })
 
         .state('contact', {
             url: '/contact',
