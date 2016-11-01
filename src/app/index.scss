@@ -298,6 +298,32 @@ li.up {
   }
 }
 
+.galleries {
+  padding: 3rem;
+  h1 {
+    color: $dark-gray;
+    margin-bottom: 0;
+  }
+  h1.title-line:before {
+    background-color: $main-green;
+    content: "";
+    position: absolute;
+    left: 25%;
+    top: 26px;
+    height: 1px;
+    width: 30%;
+    z-index: 1;
+  }
+  h4 {
+    color: #999999;
+    margin-bottom: 50px;
+  }
+  img {
+    width: 300px;
+    margin: 5px;
+  }
+}
+
 /* Portrait */
 
 @media (min-width:300px) and (max-width:450px) and (orientation: portrait) {

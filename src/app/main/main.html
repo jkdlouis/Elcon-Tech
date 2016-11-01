@@ -13,4 +13,16 @@
                         </uib-slide>
                     </uib-carousel>
     </div>
-</div>
+    <div class="row text-center galleries">
+        <div class="col-xs-12">
+            <h1 class="title-line">Facility Galleries</h1>
+            <h4>Modern Equipment and Controlled Environment</h4>
+                <ul class="list-inline list-unstyled">
+                <li ng-repeat="gallery in main.galleries">
+                    <img class="img-responsive" src="{{gallery.image}}" alt="{{gallery.alt}}">
+                </li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+    </div>

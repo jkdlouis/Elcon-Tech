@@ -20,7 +20,7 @@
 
     return directive;
 
-    function linkFunc(scope, el, attr, vm) {
+    function linkFunc(scope, el) {
       var watcher;
       var typist = malarkey(el[0], {
         typeSpeed: 40,
