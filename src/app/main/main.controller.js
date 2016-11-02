@@ -16,7 +16,7 @@
       {
         image: 'assets/images/shenzhen-city3.jpg',
         alt: 'Asia Technology City of Shenzhen',
-        text: 'Welcome To Elcon, Please Let Us Introduce Ourselves',
+        text: 'Welcome To Elcon Technology, Please Let Us Introduce Ourselves',
         link: '#/about',
         button: 'About Us'
       },

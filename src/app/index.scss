@@ -191,7 +191,7 @@ h1.title-line:before {
   li {
     display: table-cell;
     position: relative;
-    min-width: 100px;
+    width: 80px;
   }
 }
 
@@ -211,9 +211,9 @@ span.circle {
 .date {
   font-size: 1.5em;
   position: absolute;
-  left: 0;
+  left: 10px;
   bottom: 0;
-  margin-bottom: 161px;
+  margin-bottom: 235px;
 
 }
 .content {
@@ -225,7 +225,7 @@ span.circle {
   display: block;
   position: relative;
   margin: 0 auto;
-  width: 125px;
+  width: 117px;
   text-align: center;
   padding: 5px;
   background-color: white;
@@ -281,46 +281,43 @@ li.up {
   }
 }
 
-.certificate {
+.galleries {
   padding: 3rem;
-
-
+  h1 {
+    margin-bottom: 10px;
+  }
   span {
     background-color: white;
     padding: 0 20px;
     z-index: 2;
     position: relative;
   }
+  h1.title-line:before {
+    left: 30%;
+    width: 40%;
+    top: 19px;
+  }
   h4 {
     margin-bottom: 60px;
     color: $text-color;
     font-size: 1.5em;
   }
-}
-
-.galleries {
-  padding: 3rem;
-  h1 {
-    color: $dark-gray;
-    margin-bottom: 0;
-  }
-  h1.title-line:before {
-    background-color: $main-green;
-    content: "";
-    position: absolute;
-    left: 25%;
-    top: 26px;
-    height: 1px;
-    width: 30%;
-    z-index: 1;
-  }
-  h4 {
-    color: #999999;
-    margin-bottom: 50px;
-  }
   img {
     width: 300px;
     margin: 5px;
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+  }
+  img:hover {
+    cursor: pointer;
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
   }
 }
 
@@ -348,22 +345,6 @@ li.up {
   .carousel {
     height: 195px !important;
   }
-  .about {
-    h1.title-line:before {
-      top: 10px;
-      width: 80%;
-      left: 10%;
-      height: 1px;
-    }
-  }
-  .certificate {
-    h1.title-line:before {
-      top: 10px;
-      width: 80%;
-      left: 10%;
-      height: 1px;
-    }
-  }
 }
 
 //landscape
@@ -381,22 +362,7 @@ li.up {
   ol.carousel-indicators {
     display: none;
   }
-  .about {
-    h1.title-line:before {
-      top: 10px;
-      width: 80%;
-      left: 10%;
-      height: 1px;
-    }
-  }
-  .certificate {
-    h1.title-line:before {
-      top: 10px;
-      width: 80%;
-      left: 10%;
-      height: 1px;
-    }
-  }
+
 }
 
 

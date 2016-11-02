@@ -12,7 +12,20 @@
   }
 }
 
-
+.certificate {
+  padding: 3rem;
+  span {
+    background-color: white;
+    padding: 0 20px;
+    z-index: 2;
+    position: relative;
+  }
+  h4 {
+    margin-bottom: 60px;
+    color: $text-color;
+    font-size: 1.5em;
+  }
+}
 
 //portrait
 
@@ -21,6 +34,33 @@
     height: 110px;
     h1 {
       margin-top: 3.5rem;
+    }
+  }
+  .about {
+    h1 {
+      margin: 10px 0;
+    }
+    h1.title-line:before {
+      top: 20px;
+      width: 80%;
+      left: 10%;
+      height: 1px;
+    }
+  }
+  .certificate {
+    padding: 0 10px;
+    margin-bottom: 10px;
+    h1 {
+      margin-top: 10px 0;
+    }
+    h1.title-line:before {
+      top: 30px;
+      width: 80%;
+      left: 10%;
+      height: 1px;
+    }
+    h4 {
+      margin-bottom: 10px;
     }
   }
 }
@@ -32,6 +72,22 @@
     height: 210px;
     h1 {
       margin-top: 8rem;
+    }
+  }
+  .about {
+    h1.title-line:before {
+      top: 10px;
+      width: 80%;
+      left: 10%;
+      height: 1px;
+    }
+  }
+  .certificate {
+    h1.title-line:before {
+      top: 10px;
+      width: 80%;
+      left: 10%;
+      height: 1px;
     }
   }
 }
