@@ -337,7 +337,7 @@
                 {
                     "series":"MZ",
                     "name": "Snap-in Terminal Type Aluminum Electrolytic Capacitors",
-                    templateUrl: "../assets/product/snap-in-terminal/141-142-143-144-=MA_MZ.pdf",
+                    templateUrl: "../assets/product/snap-in-terminal/ma-mz.pdf",
                     "image": "../assets/product/snap-in-terminal/mz.png",
                     "alt": "MZ Series Snap-in Terminal Type Aluminum Electrolytic Capacitors"
                 },
