@@ -35,9 +35,12 @@
   }
 }
 
-@media screen and (min-device-width: 300px) and (max-device-width: 450px) and (-webkit-device-pixel-ratio: 2)
+@media screen and (min-device-width: 300px) and (max-device-width: 450px)
 and (orientation: portrait) {
   .footer {
+    h1 {
+      font-size: 1.5em!important;
+    }
     h4 {
       line-height: 2em;
     }
@@ -49,8 +52,8 @@ and (orientation: portrait) {
 
 
 
-@media screen and (min-device-width: 300px) and (max-device-width: 450px) and (-webkit-device-pixel-ratio: 3)
-and (orientation: portrait) {
+@media screen and (min-device-width: 550px) and (max-device-width: 750px)
+and (orientation: landscape) {
   .footer {
     h4 {
       line-height: 2em;

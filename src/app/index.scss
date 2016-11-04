@@ -363,6 +363,14 @@ li.up {
   ol.carousel-indicators {
     display: none;
   }
+  .galleries {
+      h1.title-line:before {
+        top: 10px;
+        width: 60%;
+        left: 20%;
+        height: 1px;
+    }
+  }
 
 }
 

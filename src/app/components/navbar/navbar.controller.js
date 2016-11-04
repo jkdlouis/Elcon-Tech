@@ -8,6 +8,6 @@
         vm.isActive = function(viewLocation) {
             return viewLocation === $location.path();
         };
-        vm.isCollapsed = false;
+        $scope.isCollapsed = true;
     }
 })();
