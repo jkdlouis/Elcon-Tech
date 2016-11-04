@@ -155,7 +155,12 @@ and (orientation: portrait) {
     height: 110px;
     h1 {
       font-size: 2em;
-      margin-top: 45px;
+      margin-top: 25px;
+      margin-bottom: 10px;
+    }
+    h4 {
+      font-size: 1em;
+      line-height: 1.5em;
     }
   }
   .product-category {
@@ -179,7 +184,7 @@ and (orientation: portrait) {
   .product-cover {
     height: 210px;
     h1 {
-      margin-top: -1rem;
+      margin-top: -5rem;
     }
     h4 {
       font-size: 1em;

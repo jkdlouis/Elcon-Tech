@@ -346,14 +346,28 @@ li.up {
   .carousel {
     height: 195px !important;
   }
+  .galleries {
+    h1 {
+      margin-top: 0;
+    }
+    h1.title-line:before {
+      top: 10px;
+      width: 110%;
+      left: -5%;
+      height: 1px;
+    }
+    h4 {
+      margin-bottom: 15px;
+    }
+  }
 }
 
 //landscape
 
 @media (min-width:550px) and (max-width:750px) and (orientation: landscape) {
-   .carousel {
-     height: 300px !important;
-   }
+  .carousel {
+    height: 300px !important;
+  }
   .about, .certificate {
     padding: 10px;
   }
@@ -364,15 +378,22 @@ li.up {
     display: none;
   }
   .galleries {
-      h1.title-line:before {
-        top: 10px;
-        width: 60%;
-        left: 20%;
-        height: 1px;
+    h1 {
+      margin-top: 0;
+    }
+    h1.title-line:before {
+      top: 10px;
+      width: 70%;
+      left: 15%;
+      height: 1px;
+    }
+    h4 {
+      margin-bottom: 20px;
     }
   }
-
 }
+
+
 
 
 /**
