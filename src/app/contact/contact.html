@@ -6,27 +6,26 @@
     </div>
     <div class="row contact-form">
         <div class="hidden-xs hidden-sm col-xs-4 col-xs-offset-1">
-            <form name="contactForm" data-ng-submit=""
-            method="post" role="form">
+            <form name="contactForm" method="post" role="form" action="http://formspree.io/info@elcon-fsd.com">
                 <div class="form-group">
                     <label for="fullName">Full Name</label>
-                    <input type="text" class="form-control" id="fullName" data-ng-model="contactName" required/>
+                    <input type="text" class="form-control" name="Full Name" id="fullName" ng-model="nameValid" ng-required="required" required/>
                 </div>
                 <div class="form-group">
                     <label for="companyName">Company Name</label>
-                    <input type="text" class="form-control" id="companyName" data-ng-model="companyName" required/>
+                    <input type="text" class="form-control" name="Last Name" id="companyName" ng-model="companyName" ng-required="required" required/>
                 </div>
                 <div class="form-group">
                     <label for="email">Email address</label>
-                    <input type="email" name="name" class="form-control" id="email" data-ng-minlength="3" data-ng-model="email" required/>
+                    <input type="email" name="Email" class="form-control" id="email" data-ng-minlength="3" ng-model="emailValid" ng-required="required" required/>
                 </div>
                 <div class="form-group">
                     <label for="phoneNumber">Phone Number</label>
-                    <input type="number" name="email" class="form-control" data-ng-minlength="3" id="phoneNumber" data-ng-model="phoneNumber" required/>
+                    <input type="number" name="Phone Number" class="form-control" ng-minlength="3" id="phoneNumber" ng-model="phoneValid" ng-required="required" required/>
                 </div>
                 <div class="form-group">
                     <label for="message">Message</label>
-                    <textarea name="message" class="form-control" id="message" cols="30" rows="10" data-ng-model="message"></textarea>
+                    <textarea name="Message" class="form-control" id="message" cols="30" rows="10" data-ng-model="message"></textarea>
                 </div>
                 <button type="submit" class="btn btn-lg send-btn" value="send">Send</button>
             </form>
