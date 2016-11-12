@@ -14,7 +14,11 @@
                     "partNumber": "EPMA",
                     templateUrl: "../assets/product/solid-chip-type/ma.pdf",
                     "image": "../assets/product/solid-chip-type/ma.png",
-                    "alt": "MA Series Conductive Polymer Aluminum Solid Electrolytic Capacitors"
+                    "alt": "MA Series Conductive Polymer Aluminum Solid Electrolytic Capacitors",
+                    "capacitance": "3.3 ~ 1500uF",
+                    "ratedVoltage": "2.5 ~ 25VDC",
+                    "operationTemp": "-55 ~ +105",
+                    "loadLife": "2000 hours"
                 },
                 {
                     "series":"MB",
@@ -22,7 +26,11 @@
                     "partNumber": "EPMB",
                     templateUrl: "../assets/product/solid-chip-type/mb.pdf",
                     "image": "../assets/product/solid-chip-type/mb.png",
-                    "alt": "MB Series Conductive Polymer Aluminum Solid Electrolytic Capacitors"
+                    "alt": "MB Series Conductive Polymer Aluminum Solid Electrolytic Capacitors",
+                    "capacitance": "33 ~ 2700uF",
+                    "ratedVoltage": "2.5 ~ 16VDC",
+                    "operationTemp": "-55 ~ +105",
+                    "loadLife": "2000 hours"
                 },
                 {
                     "series":"MR",
@@ -30,7 +38,11 @@
                     "partNumber": "EPMR",
                     templateUrl: "../assets/product/solid-chip-type/mr.pdf",
                     "image": "../assets/product/solid-chip-type/mr.png",
-                    "alt": "MR Series Conductive Polymer Aluminum Solid Electrolytic Capacitors"
+                    "alt": "MR Series Conductive Polymer Aluminum Solid Electrolytic Capacitors",
+                    "capacitance": "5.6 ~ 390uF",
+                    "ratedVoltage": "16 ~ 50VDC",
+                    "operationTemp": "-55 ~ +125",
+                    "loadLife": "1500 ~ 3000 hours"
                 },
                 {
                     "series":"MS",
@@ -38,7 +50,11 @@
                     "partNumber": "EPMS",
                     templateUrl: "../assets/product/solid-chip-type/ms.pdf",
                     "image": "../assets/product/solid-chip-type/ms.png",
-                    "alt": "MS Series Conductive Polymer Aluminum Solid Electrolytic Capacitors"
+                    "alt": "MS Series Conductive Polymer Aluminum Solid Electrolytic Capacitors",
+                    "capacitance": "22 ~ 560uF",
+                    "ratedVoltage": "4 ~ 16VDC",
+                    "operationTemp": "-55 ~ +105",
+                    "loadLife": "5000 hours"
 
                 },
                 {
@@ -47,7 +63,11 @@
                     "partNumber": "EPMV",
                     templateUrl: "../assets/product/solid-chip-type/mv.pdf",
                     "image": "../assets/product/solid-chip-type/mv.png",
-                    "alt": "MV Series Conductive Polymer Aluminum Solid Electrolytic Capacitors"
+                    "alt": "MV Series Conductive Polymer Aluminum Solid Electrolytic Capacitors",
+                    "capacitance": "5.6 ~ 680uF",
+                    "ratedVoltage": "16 ~ 125VDC",
+                    "operationTemp": "-55 ~ +105",
+                    "loadLife": "3000 hours"
 
                 },
                 {
@@ -56,7 +76,11 @@
                     "partNumber": "EPMX",
                     templateUrl: "../assets/product/solid-chip-type/mx.pdf",
                     "image": "../assets/product/solid-chip-type/mx.png",
-                    "alt": "MX Series Capacitors"
+                    "alt": "MX Series Capacitors",
+                    "capacitance": "22 ~ 560uF",
+                    "ratedVoltage": "4 ~ 16VDC",
+                    "operationTemp": "-55 ~ +105",
+                    "loadLife": "20000 hours"
 
                 },
                 // solid-lead
@@ -66,7 +90,12 @@
                     "partNumber": "EPPA",
                     templateUrl: "../assets/product/solid-lead-type/pa.pdf",
                     "image": "../assets/product/solid-lead-type/pa.png",
-                    "alt": "PA Series Conductive Polymer Aluminum Solid Electrolytic Capacitors"
+                    "alt": "PA Series Conductive Polymer Aluminum Solid Electrolytic Capacitors",
+                    "capacitance": "6.8 ~ 1500uF",
+                    "ratedVoltage": "2.5 ~ 25VDC",
+                    "operationTemp": "-55 ~ +105",
+                    "loadLife": "2000 hours"
+
                 },
                 {
                     "series":"PB",
@@ -74,7 +103,11 @@
                     "partNumber": "EPPB",
                     templateUrl: "../assets/product/solid-lead-type/pb.pdf",
                     "image": "../assets/product/solid-lead-type/pb.png",
-                    "alt": "PB Series Conductive Polymer Aluminum Solid Electrolytic Capacitors"
+                    "alt": "PB Series Conductive Polymer Aluminum Solid Electrolytic Capacitors",
+                    "capacitance": "470 ~ 1500uF",
+                    "ratedVoltage": "2.5 ~ 16VDC",
+                    "operationTemp": "-55 ~ +105",
+                    "loadLife": "2000 hours"
                 },
                 {
                     "series":"PB-2",
@@ -90,7 +123,11 @@
                     "partNumber": "EPPR",
                     templateUrl: "../assets/product/solid-lead-type/pr.pdf",
                     "image": "../assets/product/solid-lead-type/pr.png",
-                    "alt": "PR Series Conductive Polymer Aluminum Solid Electrolytic Capacitors"
+                    "alt": "PR Series Conductive Polymer Aluminum Solid Electrolytic Capacitors",
+                    "capacitance": "22 ~ 390uF",
+                    "ratedVoltage": "16 ~ 50VDC",
+                    "operationTemp": "-55 ~ +125",
+                    "loadLife": "3000 hours"
                 },
                 {
                     "series":"PS",
@@ -98,7 +135,11 @@
                     "partNumber": "EPPS",
                     templateUrl: "../assets/product/solid-lead-type/ps.pdf",
                     "image": "../assets/product/solid-lead-type/ps.png",
-                    "alt": "PS Series Conductive Polymer Aluminum Solid Electrolytic Capacitors"
+                    "alt": "PS Series Conductive Polymer Aluminum Solid Electrolytic Capacitors",
+                    "capacitance": "100 ~ 1500uF",
+                    "ratedVoltage": "2.5 ~ 16VDC",
+                    "operationTemp": "-55 ~ +105",
+                    "loadLife": "5000 hours"
                 },
                 {
                     "series":"PV",
@@ -106,7 +147,11 @@
                     "partNumber": "EPPV",
                     templateUrl: "../assets/product/solid-lead-type/pv.pdf",
                     "image": "../assets/product/solid-lead-type/pv.png",
-                    "alt": "PV Series Conductive Polymer Aluminum Solid Electrolytic Capacitors"
+                    "alt": "PV Series Conductive Polymer Aluminum Solid Electrolytic Capacitors",
+                    "capacitance": "6.8 ~ 470uF",
+                    "ratedVoltage": "16 ~ 100VDC",
+                    "operationTemp": "-55 ~ +105",
+                    "loadLife": "3000 hours"
                 },
                 {
                     "series":"PX",
@@ -114,7 +159,11 @@
                     "partNumber": "EPPX",
                     templateUrl: "../assets/product/solid-lead-type/px.pdf",
                     "image": "../assets/product/solid-lead-type/px.png",
-                    "alt": "PX Series Conductive Polymer Aluminum Solid Electrolytic Capacitors"
+                    "alt": "PX Series Conductive Polymer Aluminum Solid Electrolytic Capacitors",
+                    "capacitance": "100 ~ 1200uF",
+                    "ratedVoltage": "4 ~ 16VDC",
+                    "operationTemp": "-55 ~ +105",
+                    "loadLife": "20000 hours"
                 },
             // chip-type series
             {

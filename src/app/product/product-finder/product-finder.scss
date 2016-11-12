@@ -41,13 +41,14 @@
   .thumbnail {
     padding: 20px;
     line-height: 1.5em;
-    height: 350px;
+    height: auto;
     img {
       width: 100px;
       height: 100px;
     }
-    h4 {
-      margin: 20px;
+    ul > li {
+      margin: 10px;
+      font-size: 1.3em;
     }
     .btn-learn {
       font-size: 1.5em;
