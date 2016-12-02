@@ -2811,7 +2811,7 @@ angular.mock.$RootScopeDecorator = ['$delegate', function($delegate) {
    *
    * ## Example
    *
-   * Typically beforeAll is used to make many assertions about a single operation. This can
+   * Typically beforeAll is used to make many assertions galleries a single operation. This can
    * cut down test run-time as the test setup doesn't need to be re-run, and enabling focussed
    * tests each with a single assertion.
    *

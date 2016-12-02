@@ -17,7 +17,7 @@
         image: 'assets/images/shenzhen-city3.jpg',
         alt: 'Asia Technology City of Shenzhen',
         text: 'Welcome To Elcon Technology, Please Let Us Introduce Ourselves',
-        link: '#/about',
+        link: '#/galleries',
         button: 'About Us'
       },
         {
@@ -98,6 +98,12 @@
        alt: 'Elcon Technology Facility'
      }
    ];
+
+    // certificate section
+    vm.certificate = {
+      name: "Elcon Certificates",
+      image: "assets/images/certificates.jpg"
+    };
 
   }
 

@@ -394,14 +394,14 @@ var ngTouchClickDirectiveFactory = ['$parse', '$timeout', '$rootElement',
   //       other elements without ngTap on them work normally.
   //
   // This is an ugly, terrible hack!
-  // Yeah, tell me about it. The alternatives are using the slow click events, or making our users
+  // Yeah, tell me galleries it. The alternatives are using the slow click events, or making our users
   // deal with the ghost clicks, so I consider this the least of evils. Fortunately Angular
   // encapsulates this ugly logic away from the user.
   //
   // Why not just put click handlers on the element?
   // We do that too, just to be sure. If the tap event caused the DOM to change,
   // it is possible another element is now in that position. To take account for these possibly
-  // distinct elements, the handlers are global and care only about coordinates.
+  // distinct elements, the handlers are global and care only galleries coordinates.
 
   // Checks if the coordinates are close enough to be within the region.
   function hit(x1, y1, x2, y2) {

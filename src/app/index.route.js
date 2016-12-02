@@ -15,13 +15,6 @@
         controllerAs: 'main'
       })
 
-        .state('about', {
-            url: '/about',
-            templateUrl: 'app/about/about.html',
-            controller: 'AboutController',
-            controllerAs: 'about'
-        })
-
         .state('product', {
             url: '/product',
             templateUrl: 'app/product/product.html',
@@ -29,14 +22,17 @@
             controllerAs: 'product'
         })
 
-        // .state('career', {
-        //     url: '/career',
-        //     templateUrl: 'app/career/career.html'
-        // })
+        .state('galleries', {
+            url: '/galleries',
+            templateUrl: 'app/galleries/galleries.html',
+            controller: 'GalleriesController',
+            controllerAs: 'galleries'
+        })
 
         .state('contact', {
             url: '/contact',
-            templateUrl: 'app/contact/contact.html'
+            templateUrl: 'app/contact/contact.html',
+            controller: 'ContactController'
         })
 
         .state('product-finder', {

@@ -1,18 +1,14 @@
 (function() {
+    'use strict';
+
     angular
         .module('augularWorkplace')
-        .controller('ProductController', ProductController);
+        .controller('GalleriesController', GalleriesController);
 
-    function ProductController (){
+    /** @ngInject */
+    function GalleriesController() {
         var vm = this;
-        vm.solidChip = false;
-        vm.solidLead = false;
-        vm.chipType = false;
-        vm.miniature = false;
-        vm.snapIn = false;
-        vm.specialApp = false;
-
-    vm.galleries = [
+        vm.galleryList = [
             {
                 image: 'assets/images/factories/factory-1.jpg',
                 alt: 'Elcon Technology Facility'
@@ -63,4 +59,6 @@
             }
         ];
     }
+
+
 })();

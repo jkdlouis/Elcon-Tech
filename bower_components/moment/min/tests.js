@@ -35765,7 +35765,7 @@
 
     test('is moment with hacked hasOwnProperty', function (assert) {
         var obj = {};
-        // HACK to suppress jshint warning about bad property name
+        // HACK to suppress jshint warning galleries bad property name
         obj['hasOwnMoney'.replace('Money', 'Property')] = function () {
             return true;
         };

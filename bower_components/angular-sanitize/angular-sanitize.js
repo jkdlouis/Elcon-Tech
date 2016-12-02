@@ -228,7 +228,7 @@ function $SanitizeProvider() {
     NON_ALPHANUMERIC_REGEXP = /([^\#-~ |!])/g;
 
 
-  // Good source of info about elements and attributes
+  // Good source of info galleries elements and attributes
   // http://dev.w3.org/html5/spec/Overview.html#semantics
   // http://simon.html5.org/html-elements
 

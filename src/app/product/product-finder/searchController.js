@@ -172,15 +172,23 @@
                 "partNumber": "",
                 templateUrl: "../assets/product/chip-type/CH.pdf",
                 "image": "../assets/product/chip-type/ch.png",
-                "alt": "CH Series Surface Mount Aluminum Electrolytic Capacitors"
+                "alt": "CH Series Surface Mount Aluminum Electrolytic Capacitors",
+                "capacitance": "0.1 ~ 6800uF",
+                "ratedVoltage": "4 ~ 450VDC",
+                "operationTemp": "-40 ~ +105",
+                "loadLife": "1000 ~ 2000 hours"
             },
             {
                 "series": "CK",
                 "name": "Surface Mount Aluminum Electrolytic Capacitors",
                 "partNumber": "",
                 templateUrl: "../assets/product/chip-type/CK.pdf",
-                "image": "../assets/product/chip-type/ch.png",
-                "alt": "CK Series Surface Mount Aluminum Electrolytic Capacitors"
+                "image": "../assets/product/chip-type/ck.png",
+                "alt": "CK Series Surface Mount Aluminum Electrolytic Capacitors",
+                "capacitance": "0.1 ~ 6800uF",
+                "ratedVoltage": "4 ~ 450VDC",
+                "operationTemp": "-40 ~ +105",
+                "loadLife": "1000 ~ 2000 hours"
             },
             {
                 "series": "EL",
@@ -188,7 +196,11 @@
                 "partNumber": "",
                 templateUrl: "../assets/product/chip-type/EL.pdf",
                 "image": "../assets/product/chip-type/el.png",
-                "alt": "EL Series Surface Mount Aluminum Electrolytic Capacitors"
+                "alt": "EL Series Surface Mount Aluminum Electrolytic Capacitors",
+                "capacitance": "0.1 ~ 1500uF",
+                "ratedVoltage": "6.3 ~ 50VDC",
+                "operationTemp": "-55 ~ +105",
+                "loadLife": "2000 ~ 3000 hours"
             },
             {
                 "series": "FZ",
@@ -196,7 +208,11 @@
                 "partNumber": "",
                 templateUrl: "../assets/product/chip-type/FZ.pdf",
                 "image": "../assets/product/chip-type/fz.png",
-                "alt": "FZ Series Surface Mount Aluminum Electrolytic Capacitors"
+                "alt": "FZ Series Surface Mount Aluminum Electrolytic Capacitors",
+                "capacitance": "3.3 ~ 4700uF",
+                "ratedVoltage": "6.3 ~ 100VDC",
+                "operationTemp": "-55 ~ +105",
+                "loadLife": "2000 ~ 5000 hours"
             },
             {
                 "series": "HU",
@@ -204,7 +220,11 @@
                 "partNumber": "",
                 templateUrl: "../assets/product/chip-type/HU.pdf",
                 "image": "../assets/product/chip-type/hu.png",
-                "alt": "HU Series Surface Mount Aluminum Electrolytic Capacitors"
+                "alt": "HU Series Surface Mount Aluminum Electrolytic Capacitors",
+                "capacitance": "3.3 ~ 47uF",
+                "ratedVoltage": "160 ~ 450VDC",
+                "operationTemp": "-40 ~ +105",
+                "loadLife": "5000 hours"
             },
             {
                 "series": "KH",
@@ -212,7 +232,11 @@
                 "partNumber": "",
                 templateUrl: "../assets/product/chip-type/KH.pdf",
                 "image": "../assets/product/chip-type/kh.png",
-                "alt": "KH Series Surface Mount Aluminum Electrolytic Capacitors"
+                "alt": "KH Series Surface Mount Aluminum Electrolytic Capacitors",
+                "capacitance": "3.3 ~ 2200uF",
+                "ratedVoltage": "10 ~ 450VDC",
+                "operationTemp": "-40 ~ +125",
+                "loadLife": "1000 ~ 5000 hours"
             },
             {
                 "series": "KL",
@@ -220,7 +244,11 @@
                 "partNumber": "",
                 templateUrl: "../assets/product/chip-type/KL.pdf",
                 "image": "../assets/product/chip-type/kl.png",
-                "alt": "KL Series Surface Mount Aluminum Electrolytic Capacitors"
+                "alt": "KL Series Surface Mount Aluminum Electrolytic Capacitors",
+                "capacitance": "0.1 ~ 1500uF",
+                "ratedVoltage": "6.3 ~ 100VDC",
+                "operationTemp": "-55 ~ +105",
+                "loadLife": "3000 ~ 5000 hours"
             },
             {
                 "series": "KP",
@@ -228,7 +256,11 @@
                 "partNumber": "",
                 templateUrl: "../assets/product/chip-type/KP.pdf",
                 "image": "../assets/product/chip-type/kp.png",
-                "alt": "KP Series Surface Mount Aluminum Electrolytic Capacitors"
+                "alt": "KP Series Surface Mount Aluminum Electrolytic Capacitors",
+                "capacitance": "0.1 ~ 47uF",
+                "ratedVoltage": "6.3 ~ 50VDC",
+                "operationTemp": "-55 ~ +105",
+                "loadLife": "1000 hours"
             },
             {
                 "series": "KZ",
@@ -236,7 +268,11 @@
                 "partNumber": "",
                 templateUrl: "../assets/product/chip-type/KZ.pdf",
                 "image": "../assets/product/chip-type/kz.png",
-                "alt": "KZ Series Surface Mount Aluminum Electrolytic Capacitors"
+                "alt": "KZ Series Surface Mount Aluminum Electrolytic Capacitors",
+                "capacitance": "1 ~ 4700uF",
+                "ratedVoltage": "6.3 ~ 50VDC",
+                "operationTemp": "-55 ~ +105",
+                "loadLife": "1000 ~ 2000 hours"
             },
             {
                 "series": "LZ",
@@ -244,7 +280,11 @@
                 "partNumber": "",
                 templateUrl: "../assets/product/chip-type/LZ.pdf",
                 "image": "../assets/product/chip-type/lz.png",
-                "alt": "LZ Series Surface Mount Aluminum Electrolytic Capacitors"
+                "alt": "LZ Series Surface Mount Aluminum Electrolytic Capacitors",
+                "capacitance": "1 ~ 4700uF",
+                "ratedVoltage": "6.3 ~ 50VDC",
+                "operationTemp": "-55 ~ +105",
+                "loadLife": "1000 ~ 2000 hours"
             },
             {
                 "series": "SC",
@@ -252,7 +292,11 @@
                 "partNumber": "",
                 templateUrl: "../assets/product/chip-type/SC.pdf",
                 "image": "../assets/product/chip-type/sc.png",
-                "alt": "SC Series Surface Mount Aluminum Electrolytic Capacitors"
+                "alt": "SC Series Surface Mount Aluminum Electrolytic Capacitors",
+                "capacitance": "0.1 ~ 220uF",
+                "ratedVoltage": "6.3 ~ 50VDC",
+                "operationTemp": "-55 ~ +85",
+                "loadLife": "2000 hours"
             },
                 // miniature
                 {
@@ -260,63 +304,99 @@
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/miniature/43-44-UH.pdf",
                     "image": "../assets/product/miniature/uh.png",
-                    "alt": "Miniature Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "Miniature Series Radial Lead Aluminum Electrolytic Capacitors",
+                    "capacitance": "0.1 ~ 100uF",
+                    "ratedVoltage": "6.3 ~ 50VDC",
+                    "operationTemp": "-40 ~ +105",
+                    "loadLife": "1000 hours"
                 },
                 {
                     "series":"TP",
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/miniature/49-50-TP.pdf",
                     "image": "../assets/product/miniature/tp.png",
-                    "alt": "Miniature Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "Miniature Series Radial Lead Aluminum Electrolytic Capacitors",
+                    "capacitance": "0.1 ~ 47uF",
+                    "ratedVoltage": "6.3 ~ 50VDC",
+                    "operationTemp": "-40 ~ +105",
+                    "loadLife": "1000 hours"
                 },
                 {
                     "series":"LA",
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/miniature/57-58-LA.pdf",
                     "image": "../assets/product/miniature/la.png",
-                    "alt": "Miniature Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "Miniature Series Radial Lead Aluminum Electrolytic Capacitors",
+                    "capacitance": "0.1 ~ 100uF",
+                    "ratedVoltage": "6.3 ~ 63VDC",
+                    "operationTemp": "-40 ~ +105",
+                    "loadLife": "1000 hours"
                 },
                 {
                     "series":"SK",
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/miniature/65-66-SK.pdf",
                     "image": "../assets/product/miniature/sk.png",
-                    "alt": "Miniature Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "Miniature Series Radial Lead Aluminum Electrolytic Capacitors",
+                    "capacitance": "0.1 ~ 330uF",
+                    "ratedVoltage": "6.3 ~ 50VDC",
+                    "operationTemp": "-40 ~ +105",
+                    "loadLife": "1000 hours"
                 },
                 {
                     "series":"SL",
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/miniature/69-70-SL.pdf",
                     "image": "../assets/product/miniature/sl.png",
-                    "alt": "Miniature Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "Miniature Series Radial Lead Aluminum Electrolytic Capacitors",
+                    "capacitance": "0.1 ~ 220uF",
+                    "ratedVoltage": "6.3 ~ 50VDC",
+                    "operationTemp": "-40 ~ +125",
+                    "loadLife": "1000 hours"
                 },
                 {
                     "series":"SG",
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/miniature/73-74-SG.pdf",
                     "image": "../assets/product/miniature/sg.png",
-                    "alt": "Miniature Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "Miniature Series Radial Lead Aluminum Electrolytic Capacitors",
+                    "capacitance": "1 ~ 470uF",
+                    "ratedVoltage": "6.3 ~ 63VDC",
+                    "operationTemp": "-40 ~ +105",
+                    "loadLife": "1000 hours"
                 },
                 {
                     "series":"HG",
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/miniature/81-82-HG.pdf",
                     "image": "../assets/product/miniature/hg.png",
-                    "alt": "Miniature Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "Miniature Series Radial Lead Aluminum Electrolytic Capacitors",
+                    "capacitance": "0.1 ~ 22000uF",
+                    "ratedVoltage": "6.3 ~ 450VDC",
+                    "operationTemp": "-40 ~ +105",
+                    "loadLife": "1000 hours"
                 },
                 {
                     "series":"EG",
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/miniature/83-84-EG.pdf",
                     "image": "../assets/product/miniature/eg.png",
-                    "alt": "Miniature Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "Miniature Series Radial Lead Aluminum Electrolytic Capacitors",
+                    "capacitance": "0.1 ~ 15000uF",
+                    "ratedVoltage": "6.3 ~ 450VDC",
+                    "operationTemp": "-40 ~ +105",
+                    "loadLife": "2000 hours"
                 },
                 {
                     "series":"GC",
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/miniature/85-86-GC.pdf",
                     "image": "../assets/product/miniature/gc.png",
-                    "alt": "Miniature Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "Miniature Series Radial Lead Aluminum Electrolytic Capacitors",
+                    "capacitance": "0.1 ~ 22000uF",
+                    "ratedVoltage": "6.3 ~ 450VDC",
+                    "operationTemp": "-40 ~ +105",
+                    "loadLife": "2000 hours"
                 },
                 // high-rip
                 {
@@ -324,28 +404,44 @@
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/high-rip/95-96-97-LR.pdf",
                     "image": "../assets/product/high-rip/lr.png",
-                    "alt": "High Rips Low ESR Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "High Rips Low ESR Series Radial Lead Aluminum Electrolytic Capacitors",
+                    "capacitance": "0.1 ~ 15000uF",
+                    "ratedVoltage": "6.3 ~ 100VDC",
+                    "operationTemp": "-40 ~ +105",
+                    "loadLife": "2000 hours"
                 },
                 {
                     "series":"LH",
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/high-rip/101-102-103-LH.pdf",
                     "image": "../assets/product/high-rip/lh.png",
-                    "alt": "High Rips Low ESR Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "High Rips Low ESR Series Radial Lead Aluminum Electrolytic Capacitors",
+                    "capacitance": "6.8 ~ 18000uF",
+                    "ratedVoltage": "6.3 ~ 100VDC",
+                    "operationTemp": "-40 ~ +105",
+                    "loadLife": "2000 hours"
                 },
                 {
                     "series":"ZL",
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/high-rip/107-108-ZL.pdf",
                     "image": "../assets/product/high-rip/zl.png",
-                    "alt": "High Rips Low ESR Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "High Rips Low ESR Series Radial Lead Aluminum Electrolytic Capacitors",
+                    "capacitance": "0.47 ~ 10000uF",
+                    "ratedVoltage": "6.3 ~ 450VDC",
+                    "operationTemp": "-40 ~ +105",
+                    "loadLife": "2000 ~ 4000 hours"
                 },
                 {
                     "series":"LF",
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/high-rip/111-112-LF.pdf",
                     "image": "../assets/product/high-rip/lf.png",
-                    "alt": "High Rips Low ESR Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "High Rips Low ESR Series Radial Lead Aluminum Electrolytic Capacitors",
+                    "capacitance": "3.3 ~ 330uF",
+                    "ratedVoltage": "160 ~ 450VDC",
+                    "operationTemp": "-25 ~ +105",
+                    "loadLife": "5000 ~ 7000 hours"
                 },
                 {
                     "series":"YA",
@@ -410,21 +506,33 @@
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/special-app/159-160-EH.pdf",
                     "image": "../assets/product/special-app/eh.png",
-                    "alt": "Special Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "Special Series Radial Lead Aluminum Electrolytic Capacitors",
+                    "capacitance": "50 ~ 330uF",
+                    "ratedVoltage": "300 ~ 330VDC",
+                    "operationTemp": "-25 ~ +55",
+                    "loadLife": "2000 hours"
                 },
                 {
                     "series":"XH",
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/special-app/161-162-163-XH.pdf",
                     "image": "../assets/product/special-app/xh.png",
-                    "alt": "Special Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "Special Series Radial Lead Aluminum Electrolytic Capacitors",
+                    "capacitance": "1 ~ 4700uF",
+                    "ratedVoltage": "10 ~ 250VDC",
+                    "operationTemp": "-40 ~ +125",
+                    "loadLife": "2000 hours"
                 },
                 {
                     "series":"MH",
                     "name": "Screw Terminal Type Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/special-app/168-169-MH.pdf",
                     "image": "../assets/product/special-app/mh.png",
-                    "alt": "Special Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "Special Series Radial Lead Aluminum Electrolytic Capacitors",
+                    "capacitance": "188 ~ 680000uF",
+                    "ratedVoltage": "10 ~ 450VDC",
+                    "operationTemp": "-25 ~ +105",
+                    "loadLife": "2000 hours"
                 }
             ];
     }

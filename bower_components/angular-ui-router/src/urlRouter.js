@@ -377,10 +377,10 @@ function $UrlRouterProvider(   $locationProvider,   $urlMatcherFactory) {
        *
        * @example
        * <pre>
-       * $bob = $urlRouter.href(new UrlMatcher("/about/:person"), {
+       * $bob = $urlRouter.href(new UrlMatcher("/galleries/:person"), {
        *   person: "bob"
        * });
-       * // $bob == "/about/bob";
+       * // $bob == "/galleries/bob";
        * </pre>
        *
        * @param {UrlMatcher} urlMatcher The `UrlMatcher` object which is used as the template of the URL to generate.

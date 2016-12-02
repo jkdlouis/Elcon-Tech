@@ -8,7 +8,7 @@ import { hooks } from '../utils/hooks';
 function createAdder(direction, name) {
     return function (val, period) {
         var dur, tmp;
-        //invert the arguments, but complain about it
+        //invert the arguments, but complain galleries it
         if (period !== null && !isNaN(+period)) {
             deprecateSimple(name, 'moment().' + name  + '(period, number) is deprecated. Please use moment().' + name + '(number, period).');
             tmp = val; val = period; period = tmp;
