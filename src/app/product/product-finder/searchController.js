@@ -470,35 +470,55 @@
                     "name": "Snap-in Terminal Type Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/snap-in-terminal/130-131-132-133-GS-GH.pdf",
                     "image": "../assets/product/snap-in-terminal/gs-gh.png",
-                    "alt": "GS-GH Series Snap-in Terminal Type Aluminum Electrolytic Capacitors"
+                    "alt": "GS-GH Series Snap-in Terminal Type Aluminum Electrolytic Capacitors",
+                    "capacitance": "47 ~ 33000uF",
+                    "ratedVoltage": "16 ~ 450VDC",
+                    "operationTemp": "-40 ~ +105",
+                    "loadLife": "1000 ~ 2000 hours"
                 },
                 {
                     "series":"MP",
                     "name": "Snap-in Terminal Type Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/snap-in-terminal/138-139-140-MP.pdf",
                     "image": "../assets/product/snap-in-terminal/mp.png",
-                    "alt": "MP Series Snap-in Terminal Type Aluminum Electrolytic Capacitors"
+                    "alt": "MP Series Snap-in Terminal Type Aluminum Electrolytic Capacitors",
+                    "capacitance": "82 ~ 2700uF",
+                    "ratedVoltage": "160 ~ 450VDC",
+                    "operationTemp": "-25 ~ +105",
+                    "loadLife": "4000 hours"
                 },
                 {
                     "series":"MZ",
                     "name": "Snap-in Terminal Type Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/snap-in-terminal/ma-mz.pdf",
                     "image": "../assets/product/snap-in-terminal/mz.png",
-                    "alt": "MZ Series Snap-in Terminal Type Aluminum Electrolytic Capacitors"
+                    "alt": "MZ Series Snap-in Terminal Type Aluminum Electrolytic Capacitors",
+                    "capacitance": "39 ~ 3300uF",
+                    "ratedVoltage": "160 ~ 450VDC",
+                    "operationTemp": "-25 ~ +105",
+                    "loadLife": "2000 ~ 3000 hours"
                 },
                 {
                     "series":"KM",
                     "name": "Snap-in Terminal Type Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/snap-in-terminal/149-150-KM.pdf",
                     "image": "../assets/product/snap-in-terminal/km.png",
-                    "alt": "KM Series Snap-in Terminal Type Aluminum Electrolytic Capacitors"
+                    "alt": "KM Series Snap-in Terminal Type Aluminum Electrolytic Capacitors",
+                    "capacitance": "39 ~ 390uF",
+                    "ratedVoltage": "160 ~ 450VDC",
+                    "operationTemp": "-25 ~ +105",
+                    "loadLife": "2000 hours"
                 },
                 {
                     "series":"MQ",
                     "name": "Snap-in Terminal Type Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/snap-in-terminal/156-157-158-MQ.pdf",
                     "image": "../assets/product/snap-in-terminal/mq.png",
-                    "alt": "MQ Series Snap-in Terminal Type Aluminum Electrolytic Capacitors"
+                    "alt": "MQ Series Snap-in Terminal Type Aluminum Electrolytic Capacitors",
+                    "capacitance": "68 ~ 3300uF",
+                    "ratedVoltage": "160 ~ 450VDC",
+                    "operationTemp": "-25 ~ +105",
+                    "loadLife": "2000 hours"
                 },
                 // special application
                 {
@@ -529,7 +549,7 @@
                     templateUrl: "../assets/product/special-app/168-169-MH.pdf",
                     "image": "../assets/product/special-app/mh.png",
                     "alt": "Special Series Radial Lead Aluminum Electrolytic Capacitors",
-                    "capacitance": "188 ~ 680000uF",
+                    "capacitance": "180 ~ 680000uF",
                     "ratedVoltage": "10 ~ 450VDC",
                     "operationTemp": "-25 ~ +105",
                     "loadLife": "2000 hours"
