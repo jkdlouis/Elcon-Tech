@@ -18,7 +18,8 @@
                     "capacitance": "3.3 ~ 1500uF",
                     "ratedVoltage": "2.5 ~ 25VDC",
                     "operationTemp": "-55 ~ +105",
-                    "loadLife": "2000 hours"
+                    "loadLife": "2000 hours",
+                    "loadLifeTitle": "105"
                 },
                 {
                     "series":"MB",
@@ -30,7 +31,8 @@
                     "capacitance": "33 ~ 2700uF",
                     "ratedVoltage": "2.5 ~ 16VDC",
                     "operationTemp": "-55 ~ +105",
-                    "loadLife": "2000 hours"
+                    "loadLife": "2000 hours",
+                    "loadLifeTitle": "105"
                 },
                 {
                     "series":"MR",
@@ -42,7 +44,8 @@
                     "capacitance": "5.6 ~ 390uF",
                     "ratedVoltage": "16 ~ 50VDC",
                     "operationTemp": "-55 ~ +125",
-                    "loadLife": "1500 ~ 3000 hours"
+                    "loadLife": "1500 ~ 3000 hours",
+                    "loadLifeTitle": "105"
                 },
                 {
                     "series":"MS",
@@ -54,7 +57,8 @@
                     "capacitance": "22 ~ 560uF",
                     "ratedVoltage": "4 ~ 16VDC",
                     "operationTemp": "-55 ~ +105",
-                    "loadLife": "5000 hours"
+                    "loadLife": "5000 hours",
+                    "loadLifeTitle": "105"
 
                 },
                 {
@@ -67,7 +71,8 @@
                     "capacitance": "5.6 ~ 680uF",
                     "ratedVoltage": "16 ~ 125VDC",
                     "operationTemp": "-55 ~ +105",
-                    "loadLife": "3000 hours"
+                    "loadLife": "3000 hours",
+                    "loadLifeTitle": "105"
 
                 },
                 {
@@ -80,7 +85,8 @@
                     "capacitance": "22 ~ 560uF",
                     "ratedVoltage": "4 ~ 16VDC",
                     "operationTemp": "-55 ~ +105",
-                    "loadLife": "20000 hours"
+                    "loadLife": "20000 hours",
+                    "loadLifeTitle": "105"
 
                 },
                 // solid-lead
@@ -94,7 +100,8 @@
                     "capacitance": "6.8 ~ 1500uF",
                     "ratedVoltage": "2.5 ~ 25VDC",
                     "operationTemp": "-55 ~ +105",
-                    "loadLife": "2000 hours"
+                    "loadLife": "2000 hours",
+                    "loadLifeTitle": "105"
 
                 },
                 {
@@ -107,15 +114,8 @@
                     "capacitance": "470 ~ 1500uF",
                     "ratedVoltage": "2.5 ~ 16VDC",
                     "operationTemp": "-55 ~ +105",
-                    "loadLife": "2000 hours"
-                },
-                {
-                    "series":"PB-2",
-                    "name": "Conductive Polymer Aluminum Solid Electrolytic Capacitors",
-                    "partNumber": "EPPB",
-                    templateUrl: "../assets/product/solid-lead-type/pb-2.pdf",
-                    "image": "../assets/product/solid-lead-type/pb.png",
-                    "alt": "PB-2 Series Conductive Polymer Aluminum Solid Electrolytic Capacitors"
+                    "loadLife": "2000 hours",
+                    "loadLifeTitle": "105"
                 },
                 {
                     "series":"PR",
@@ -127,7 +127,8 @@
                     "capacitance": "22 ~ 390uF",
                     "ratedVoltage": "16 ~ 50VDC",
                     "operationTemp": "-55 ~ +125",
-                    "loadLife": "3000 hours"
+                    "loadLife": "3000 hours",
+                    "loadLifeTitle": "105"
                 },
                 {
                     "series":"PS",
@@ -139,7 +140,8 @@
                     "capacitance": "100 ~ 1500uF",
                     "ratedVoltage": "2.5 ~ 16VDC",
                     "operationTemp": "-55 ~ +105",
-                    "loadLife": "5000 hours"
+                    "loadLife": "5000 hours",
+                    "loadLifeTitle": "105"
                 },
                 {
                     "series":"PV",
@@ -151,7 +153,8 @@
                     "capacitance": "6.8 ~ 470uF",
                     "ratedVoltage": "16 ~ 100VDC",
                     "operationTemp": "-55 ~ +105",
-                    "loadLife": "3000 hours"
+                    "loadLife": "3000 hours",
+                    "loadLifeTitle": "105"
                 },
                 {
                     "series":"PX",
@@ -163,7 +166,8 @@
                     "capacitance": "100 ~ 1200uF",
                     "ratedVoltage": "4 ~ 16VDC",
                     "operationTemp": "-55 ~ +105",
-                    "loadLife": "20000 hours"
+                    "loadLife": "20000 hours",
+                    "loadLifeTitle": "105"
                 },
             // chip-type series
             {
@@ -176,7 +180,8 @@
                 "capacitance": "0.1 ~ 6800uF",
                 "ratedVoltage": "4 ~ 450VDC",
                 "operationTemp": "-40 ~ +105",
-                "loadLife": "1000 ~ 2000 hours"
+                "loadLife": "1000 ~ 2000 hours",
+                "loadLifeTitle": "105"
             },
             {
                 "series": "CK",
@@ -188,7 +193,8 @@
                 "capacitance": "0.1 ~ 6800uF",
                 "ratedVoltage": "4 ~ 450VDC",
                 "operationTemp": "-40 ~ +105",
-                "loadLife": "1000 ~ 2000 hours"
+                "loadLife": "1000 ~ 2000 hours",
+                "loadLifeTitle": "105"
             },
             {
                 "series": "EL",
@@ -200,7 +206,8 @@
                 "capacitance": "0.1 ~ 1500uF",
                 "ratedVoltage": "6.3 ~ 50VDC",
                 "operationTemp": "-55 ~ +105",
-                "loadLife": "2000 ~ 3000 hours"
+                "loadLife": "2000 ~ 3000 hours",
+                "loadLifeTitle": "105"
             },
             {
                 "series": "FZ",
@@ -212,7 +219,8 @@
                 "capacitance": "3.3 ~ 4700uF",
                 "ratedVoltage": "6.3 ~ 100VDC",
                 "operationTemp": "-55 ~ +105",
-                "loadLife": "2000 ~ 5000 hours"
+                "loadLife": "2000 ~ 5000 hours",
+                "loadLifeTitle": "105"
             },
             {
                 "series": "HU",
@@ -224,7 +232,8 @@
                 "capacitance": "3.3 ~ 47uF",
                 "ratedVoltage": "160 ~ 450VDC",
                 "operationTemp": "-40 ~ +105",
-                "loadLife": "5000 hours"
+                "loadLife": "5000 hours",
+                "loadLifeTitle": "105"
             },
             {
                 "series": "KH",
@@ -236,7 +245,8 @@
                 "capacitance": "3.3 ~ 2200uF",
                 "ratedVoltage": "10 ~ 450VDC",
                 "operationTemp": "-40 ~ +125",
-                "loadLife": "1000 ~ 5000 hours"
+                "loadLife": "1000 ~ 5000 hours",
+                "loadLifeTitle": "105"
             },
             {
                 "series": "KL",
@@ -248,7 +258,8 @@
                 "capacitance": "0.1 ~ 1500uF",
                 "ratedVoltage": "6.3 ~ 100VDC",
                 "operationTemp": "-55 ~ +105",
-                "loadLife": "3000 ~ 5000 hours"
+                "loadLife": "3000 ~ 5000 hours",
+                "loadLifeTitle": "105"
             },
             {
                 "series": "KP",
@@ -260,7 +271,8 @@
                 "capacitance": "0.1 ~ 47uF",
                 "ratedVoltage": "6.3 ~ 50VDC",
                 "operationTemp": "-55 ~ +105",
-                "loadLife": "1000 hours"
+                "loadLife": "1000 hours",
+                "loadLifeTitle": "105"
             },
             {
                 "series": "KZ",
@@ -272,7 +284,8 @@
                 "capacitance": "1 ~ 4700uF",
                 "ratedVoltage": "6.3 ~ 50VDC",
                 "operationTemp": "-55 ~ +105",
-                "loadLife": "1000 ~ 2000 hours"
+                "loadLife": "1000 ~ 2000 hours",
+                "loadLifeTitle": "105"
             },
             {
                 "series": "LZ",
@@ -284,7 +297,8 @@
                 "capacitance": "1 ~ 4700uF",
                 "ratedVoltage": "6.3 ~ 50VDC",
                 "operationTemp": "-55 ~ +105",
-                "loadLife": "1000 ~ 2000 hours"
+                "loadLife": "1000 ~ 2000 hours",
+                "loadLifeTitle": "105"
             },
             {
                 "series": "SC",
@@ -296,7 +310,8 @@
                 "capacitance": "0.1 ~ 220uF",
                 "ratedVoltage": "6.3 ~ 50VDC",
                 "operationTemp": "-55 ~ +85",
-                "loadLife": "2000 hours"
+                "loadLife": "2000 hours",
+                "loadLifeTitle": "105"
             },
                 // miniature
                 {
@@ -308,7 +323,8 @@
                     "capacitance": "0.1 ~ 100uF",
                     "ratedVoltage": "6.3 ~ 50VDC",
                     "operationTemp": "-40 ~ +105",
-                    "loadLife": "1000 hours"
+                    "loadLife": "1000 hours",
+                    "loadLifeTitle": "105"
                 },
                 {
                     "series":"TP",
@@ -319,7 +335,8 @@
                     "capacitance": "0.1 ~ 47uF",
                     "ratedVoltage": "6.3 ~ 50VDC",
                     "operationTemp": "-40 ~ +105",
-                    "loadLife": "1000 hours"
+                    "loadLife": "1000 hours",
+                    "loadLifeTitle": "105"
                 },
                 {
                     "series":"LA",
@@ -330,7 +347,8 @@
                     "capacitance": "0.1 ~ 100uF",
                     "ratedVoltage": "6.3 ~ 63VDC",
                     "operationTemp": "-40 ~ +105",
-                    "loadLife": "1000 hours"
+                    "loadLife": "1000 hours",
+                    "loadLifeTitle": "105"
                 },
                 {
                     "series":"SK",
@@ -341,7 +359,8 @@
                     "capacitance": "0.1 ~ 330uF",
                     "ratedVoltage": "6.3 ~ 50VDC",
                     "operationTemp": "-40 ~ +105",
-                    "loadLife": "1000 hours"
+                    "loadLife": "1000 hours",
+                    "loadLifeTitle": "105"
                 },
                 {
                     "series":"SL",
@@ -352,7 +371,8 @@
                     "capacitance": "0.1 ~ 220uF",
                     "ratedVoltage": "6.3 ~ 50VDC",
                     "operationTemp": "-40 ~ +125",
-                    "loadLife": "1000 hours"
+                    "loadLife": "1000 hours",
+                    "loadLifeTitle": "105"
                 },
                 {
                     "series":"SG",
@@ -363,7 +383,8 @@
                     "capacitance": "1 ~ 470uF",
                     "ratedVoltage": "6.3 ~ 63VDC",
                     "operationTemp": "-40 ~ +105",
-                    "loadLife": "1000 hours"
+                    "loadLife": "1000 hours",
+                    "loadLifeTitle": "105"
                 },
                 {
                     "series":"HG",
@@ -374,7 +395,8 @@
                     "capacitance": "0.1 ~ 22000uF",
                     "ratedVoltage": "6.3 ~ 450VDC",
                     "operationTemp": "-40 ~ +105",
-                    "loadLife": "1000 hours"
+                    "loadLife": "1000 hours",
+                    "loadLifeTitle": "105"
                 },
                 {
                     "series":"EG",
@@ -385,7 +407,8 @@
                     "capacitance": "0.1 ~ 15000uF",
                     "ratedVoltage": "6.3 ~ 450VDC",
                     "operationTemp": "-40 ~ +105",
-                    "loadLife": "2000 hours"
+                    "loadLife": "2000 hours",
+                    "loadLifeTitle": "105"
                 },
                 {
                     "series":"GC",
@@ -396,7 +419,8 @@
                     "capacitance": "0.1 ~ 22000uF",
                     "ratedVoltage": "6.3 ~ 450VDC",
                     "operationTemp": "-40 ~ +105",
-                    "loadLife": "2000 hours"
+                    "loadLife": "2000 hours",
+                    "loadLifeTitle": "105"
                 },
                 // high-rip
                 {
@@ -408,7 +432,8 @@
                     "capacitance": "0.1 ~ 15000uF",
                     "ratedVoltage": "6.3 ~ 100VDC",
                     "operationTemp": "-40 ~ +105",
-                    "loadLife": "2000 hours"
+                    "loadLife": "2000 hours",
+                    "loadLifeTitle": "105"
                 },
                 {
                     "series":"LH",
@@ -419,7 +444,8 @@
                     "capacitance": "6.8 ~ 18000uF",
                     "ratedVoltage": "6.3 ~ 100VDC",
                     "operationTemp": "-40 ~ +105",
-                    "loadLife": "2000 hours"
+                    "loadLife": "2000 hours",
+                    "loadLifeTitle": "105"
                 },
                 {
                     "series":"ZL",
@@ -430,7 +456,8 @@
                     "capacitance": "0.47 ~ 10000uF",
                     "ratedVoltage": "6.3 ~ 450VDC",
                     "operationTemp": "-40 ~ +105",
-                    "loadLife": "2000 ~ 4000 hours"
+                    "loadLife": "2000 ~ 4000 hours",
+                    "loadLifeTitle": "105"
                 },
                 {
                     "series":"LF",
@@ -441,28 +468,44 @@
                     "capacitance": "3.3 ~ 330uF",
                     "ratedVoltage": "160 ~ 450VDC",
                     "operationTemp": "-25 ~ +105",
-                    "loadLife": "5000 ~ 7000 hours"
+                    "loadLife": "5000 ~ 7000 hours",
+                    "loadLifeTitle": "105"
                 },
                 {
                     "series":"YA",
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/high-rip/117-118-119-YA.pdf",
                     "image": "../assets/product/high-rip/ya.png",
-                    "alt": "YA Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "YA Series Radial Lead Aluminum Electrolytic Capacitors",
+                    "capacitance": "6.8 ~ 1800uF",
+                    "ratedVoltage": "6.3 ~ 100VDC",
+                    "operationTemp": "-40 ~ +105",
+                    "loadLife": "3000 ~ 7000 hours",
+                    "loadLifeTitle": "105"
                 },
                 {
                     "series":"EB",
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/high-rip/124-125-126-EB.pdf",
                     "image": "../assets/product/high-rip/eb.png",
-                    "alt": "EB Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "EB Series Radial Lead Aluminum Electrolytic Capacitors",
+                    "capacitance": "0.47 ~ 33000uF",
+                    "ratedVoltage": "10 ~ 450VDC",
+                    "operationTemp": "-25 ~ +105",
+                    "loadLife": "3000 ~ 7000 hours",
+                    "loadLifeTitle": "105"
                 },
                 {
                     "series":"XF",
                     "name": "Radial Lead Aluminum Electrolytic Capacitors",
                     templateUrl: "../assets/product/high-rip/127-128-129-XF.pdf",
                     "image": "../assets/product/high-rip/xf.png",
-                    "alt": "XF Series Radial Lead Aluminum Electrolytic Capacitors"
+                    "alt": "XF Series Radial Lead Aluminum Electrolytic Capacitors",
+                    "capacitance": "0.47 ~ 15000uF",
+                    "ratedVoltage": "6.3 ~ 250VDC",
+                    "operationTemp": "-40 ~ +105",
+                    "loadLife": "2000 ~ 10000 hours",
+                    "loadLifeTitle": "105"
                 },
                 // snap-in-terminal
                 {
@@ -474,7 +517,8 @@
                     "capacitance": "47 ~ 33000uF",
                     "ratedVoltage": "16 ~ 450VDC",
                     "operationTemp": "-40 ~ +105",
-                    "loadLife": "1000 ~ 2000 hours"
+                    "loadLife": "1000 ~ 2000 hours",
+                    "loadLifeTitle": "105"
                 },
                 {
                     "series":"MP",
@@ -485,7 +529,8 @@
                     "capacitance": "82 ~ 2700uF",
                     "ratedVoltage": "160 ~ 450VDC",
                     "operationTemp": "-25 ~ +105",
-                    "loadLife": "4000 hours"
+                    "loadLife": "4000 hours",
+                    "loadLifeTitle": "105"
                 },
                 {
                     "series":"MZ",
@@ -496,7 +541,8 @@
                     "capacitance": "39 ~ 3300uF",
                     "ratedVoltage": "160 ~ 450VDC",
                     "operationTemp": "-25 ~ +105",
-                    "loadLife": "2000 ~ 3000 hours"
+                    "loadLife": "2000 ~ 3000 hours",
+                    "loadLifeTitle": "105"
                 },
                 {
                     "series":"KM",
@@ -507,7 +553,8 @@
                     "capacitance": "39 ~ 390uF",
                     "ratedVoltage": "160 ~ 450VDC",
                     "operationTemp": "-25 ~ +105",
-                    "loadLife": "2000 hours"
+                    "loadLife": "2000 hours",
+                    "loadLifeTitle": "105"
                 },
                 {
                     "series":"MQ",
@@ -518,7 +565,8 @@
                     "capacitance": "68 ~ 3300uF",
                     "ratedVoltage": "160 ~ 450VDC",
                     "operationTemp": "-25 ~ +105",
-                    "loadLife": "2000 hours"
+                    "loadLife": "2000 hours",
+                    "loadLifeTitle": "105"
                 },
                 // special application
                 {
@@ -530,7 +578,8 @@
                     "capacitance": "50 ~ 330uF",
                     "ratedVoltage": "300 ~ 330VDC",
                     "operationTemp": "-25 ~ +55",
-                    "loadLife": "2000 hours"
+                    "loadLife": "2000 hours",
+                    "loadLifeTitle": "55"
                 },
                 {
                     "series":"XH",
@@ -541,7 +590,8 @@
                     "capacitance": "1 ~ 4700uF",
                     "ratedVoltage": "10 ~ 250VDC",
                     "operationTemp": "-40 ~ +125",
-                    "loadLife": "2000 hours"
+                    "loadLife": "2000 hours",
+                    "loadLifeTitle": "125"
                 },
                 {
                     "series":"MH",
@@ -552,7 +602,8 @@
                     "capacitance": "180 ~ 680000uF",
                     "ratedVoltage": "10 ~ 450VDC",
                     "operationTemp": "-25 ~ +105",
-                    "loadLife": "2000 hours"
+                    "loadLife": "2000 hours",
+                    "loadLifeTitle": "105"
                 }
             ];
     }

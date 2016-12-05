@@ -140,10 +140,9 @@ h1.title-line:before {
     background-color: $main-green;
     content: "";
     position: absolute;
-    left: 30%;
+    left: 35%;
     top: 20px;
     height: 1px;
-    width: 40%;
     z-index: 1;
   }
     span {
@@ -169,9 +168,8 @@ h1.title-line:before {
     margin-bottom: 100px;
   }
   h1.title-line:before {
-    left: 30%;
+    left: 35%;
     top: 20px;
-    width: 40%;
   }
   h1 span {
     background-color: $light-gray;
@@ -293,9 +291,8 @@ li.up {
     margin-bottom: 20px;
   }
   h1.title-line:before {
-    left: 30%;
+    left: 35%;
     top: 20px;
-    width: 40%;
   }
   span {
     background-color: white;
