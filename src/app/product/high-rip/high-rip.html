@@ -1,7 +1,7 @@
 <div ng-controller="SearchController as search">
         <div class="row text-center all-product-header">
             <div class="col-xs-12">
-                <h1>High Rip Low ESR Series</h1>
+                <h1>High Ripple Low ESR Series</h1>
             </div>
         </div>
         <div class="row text-center search-results">
@@ -14,7 +14,7 @@
                             <li>Capacitance Range: {{product.capacitance}} </li>
                             <li>Rated Voltage Range: {{product.ratedVoltage}} </li>
                             <li>Operation Temperature Range: {{product.operationTemp}}&#8451</li>
-                            <li>Load Life (at 105&#8451): {{product.loadLife}}</li>
+                            <li>Load Life (at {{product.loadLifeTitle}}&#8451): {{product.loadLife}}</li>
                         </ul>
                         <p><a ng-href="{{product.templateUrl}}" class="btn btn-lg btn-learn" role="button" target="_blank">Learn More</a>
                     </div>
