@@ -14,21 +14,21 @@
     vm.activeSlide = 0;
     vm.slides = [
       {
-        image: 'assets/images/shenzhen-city3.jpg',
+        image: 'assets/images/cloud_computing.jpg',
         alt: 'Asia Technology City of Shenzhen',
         text: 'Welcome To Elcon Technology, Please Let Us Introduce Ourselves',
         link: '#/galleries',
         button: 'About Us'
       },
         {
-      image: 'assets/images/shenzhen-city1.jpg',
+      image: 'assets/images/component_supply_chain.jpg',
           alt: 'Shenzhen Night City',
           text: 'Elcon Technology Only Offers High Quality Electrolytic Capacitors',
           link: '#/product',
           button: 'View Product'
     },
       {
-        image: 'assets/images/professionals.jpg',
+        image: 'assets/images/customer_relationship.jpg',
         alt: 'Elcon Tech Professional Sales Team',
         text: 'Our Professional Team Is Here To Help You',
         link: '#/contact',
